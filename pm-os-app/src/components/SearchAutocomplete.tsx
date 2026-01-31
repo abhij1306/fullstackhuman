@@ -4,18 +4,7 @@ import * as React from "react"
 import { Search } from "lucide-react"
 
 import { cn } from "@/lib/utils"
-import {
-    Popover,
-    PopoverContent,
-    PopoverAnchor,
-} from "@/components/ui/popover"
-import {
-    Command,
-    CommandEmpty,
-    CommandGroup,
-    CommandItem,
-    CommandList,
-} from "@/components/ui/command"
+import { Popover, PopoverContent, PopoverAnchor } from "@/components/ui/popover"
 
 interface SearchAutocompleteProps {
     placeholder?: string

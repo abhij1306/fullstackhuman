@@ -172,37 +172,38 @@ export default function InventoryPage() {
     return (
         <div className="space-y-4 animate-fade-in">
             {/* Header */}
-            <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-3 pb-3 border-b">
-                <div className="flex items-center gap-2">
-                    <div className="p-1.5 rounded-md bg-primary/10">
-                        <Database className="h-4 w-4 text-primary" />
+            <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-4 pb-4 border-b">
+                <div className="flex items-center gap-3">
+                    <div className="p-2.5 rounded-xl bg-primary/10 shadow-sm">
+                        <Database className="h-5 w-5 text-primary" />
                     </div>
                     <div>
-                        <h1 className="text-lg font-semibold tracking-tight">Content Inventory</h1>
-                        <p className="text-xs text-muted-foreground">Explore the PM knowledge base</p>
+                        <h1 className="text-xl font-bold tracking-tight">Knowledge Base</h1>
+                        <p className="text-[10px] text-muted-foreground font-black uppercase tracking-wider">Episode & Insight Inventory</p>
                     </div>
                 </div>
 
-                <div className="flex gap-2">
-                    <div className="bg-muted/50 border rounded-lg px-3 py-1.5 flex flex-col items-center min-w-[70px]">
-                        <span className="text-lg font-semibold">{totalEpisodes}</span>
-                        <span className="text-[10px] text-muted-foreground uppercase tracking-wide">Episodes</span>
+                <div className="flex gap-3">
+                    <div className="flex-1 bg-white border border-gray-100 rounded-2xl px-4 py-2 shadow-sm flex flex-col min-w-[100px]">
+                        <span className="text-lg font-bold leading-none">{totalEpisodes}</span>
+                        <span className="text-[10px] text-muted-foreground font-bold uppercase tracking-tighter mt-1">Episodes</span>
                     </div>
-                    <div className="bg-muted/50 border rounded-lg px-3 py-1.5 flex flex-col items-center min-w-[70px]">
-                        <span className="text-lg font-semibold">{totalInsights}</span>
-                        <span className="text-[10px] text-muted-foreground uppercase tracking-wide">Insights</span>
+                    <div className="flex-1 bg-white border border-gray-100 rounded-2xl px-4 py-2 shadow-sm flex flex-col min-w-[100px]">
+                        <span className="text-lg font-bold leading-none text-primary">{totalInsights}</span>
+                        <span className="text-[10px] text-muted-foreground font-bold uppercase tracking-tighter mt-1">Insights</span>
                     </div>
                 </div>
             </div>
 
             {/* Search */}
-            <div className="flex items-center gap-2">
-                <div className="relative w-full sm:w-64">
+            <div className="flex items-center gap-2 bg-muted/30 p-2 rounded-2xl border border-border/50">
+                <div className="relative flex-1">
                     <SearchAutocomplete
-                        placeholder="Filter guests, titles..."
+                        placeholder="Search guests, titles, tags..."
                         value={searchQuery}
                         onSearch={(val) => setSearchQuery(val)}
                         suggestions={suggestions}
+                        className="bg-transparent border-none shadow-none focus-visible:ring-0 focus-visible:ring-offset-0"
                     />
                 </div>
                 {searchQuery && (
@@ -210,9 +211,9 @@ export default function InventoryPage() {
                         variant="ghost"
                         size="sm"
                         onClick={() => setSearchQuery("")}
-                        className="text-xs h-8"
+                        className="text-[10px] h-7 px-2 font-bold uppercase tracking-wider text-muted-foreground hover:text-foreground"
                     >
-                        Clear
+                        Reset
                     </Button>
                 )}
             </div>

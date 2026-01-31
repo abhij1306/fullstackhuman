@@ -119,14 +119,19 @@ export default function StagePage() {
     return (
         <div className="space-y-4 animate-fade-in">
             {/* Header */}
-            <div className="flex items-start gap-3 pb-3 border-b">
-                <div className="p-2 rounded-lg bg-primary/10">
-                    <StageIcon className="h-5 w-5 text-primary" />
+            <div className="flex flex-col sm:flex-row sm:items-center gap-4 pb-4 border-b">
+                <div className="flex items-center gap-3">
+                    <div className="p-2.5 rounded-xl bg-primary/10 shadow-sm">
+                        <StageIcon className="h-5 w-5 text-primary" />
+                    </div>
+                    <div>
+                        <h1 className="text-xl font-bold tracking-tight capitalize">{stageData.label}</h1>
+                        <p className="text-[10px] text-muted-foreground font-black uppercase tracking-wider">Product Development Stage</p>
+                    </div>
                 </div>
-                <div>
-                    <h1 className="text-xl font-semibold tracking-tight capitalize">{stageData.label}</h1>
-                    <p className="text-sm text-muted-foreground">{stageData.definition}</p>
-                </div>
+                <p className="text-xs text-muted-foreground sm:ml-auto max-w-sm leading-relaxed sm:text-right italic">
+                    {stageData.definition}
+                </p>
             </div>
 
             {/* Tabs */}
@@ -140,14 +145,16 @@ export default function StagePage() {
                 }}
                 className="w-full"
             >
-                <TabsList className="h-8 w-full justify-start rounded-md bg-muted p-1">
-                    <TabsTrigger value="overview" className="text-xs h-6 px-2.5">Overview</TabsTrigger>
-                    <TabsTrigger value="frameworks" className="text-xs h-6 px-2.5">Frameworks</TabsTrigger>
-                    <TabsTrigger value="tools" className="text-xs h-6 px-2.5">Tools</TabsTrigger>
-                    <TabsTrigger value="ai" className="text-xs h-6 px-2.5">AI</TabsTrigger>
-                    <TabsTrigger value="metrics" className="text-xs h-6 px-2.5">Metrics</TabsTrigger>
-                    <TabsTrigger value="all" className="text-xs h-6 px-2.5">All</TabsTrigger>
-                </TabsList>
+                <div className="relative">
+                    <TabsList className="h-10 w-full justify-start rounded-xl bg-muted/50 p-1 overflow-x-auto scrollbar-hide no-scrollbar flex flex-nowrap shrink-0">
+                        <TabsTrigger value="overview" className="text-xs h-8 px-4 rounded-lg flex-shrink-0 data-[state=active]:shadow-sm">Overview</TabsTrigger>
+                        <TabsTrigger value="frameworks" className="text-xs h-8 px-4 rounded-lg flex-shrink-0 data-[state=active]:shadow-sm">Frameworks</TabsTrigger>
+                        <TabsTrigger value="tools" className="text-xs h-8 px-4 rounded-lg flex-shrink-0 data-[state=active]:shadow-sm">Tools</TabsTrigger>
+                        <TabsTrigger value="ai" className="text-xs h-8 px-4 rounded-lg flex-shrink-0 data-[state=active]:shadow-sm border-l border-white/20">AI Prompts</TabsTrigger>
+                        <TabsTrigger value="metrics" className="text-xs h-8 px-4 rounded-lg flex-shrink-0 data-[state=active]:shadow-sm">Metrics</TabsTrigger>
+                        <TabsTrigger value="all" className="text-xs h-8 px-4 rounded-lg flex-shrink-0 data-[state=active]:shadow-sm">Full Feed</TabsTrigger>
+                    </TabsList>
+                </div>
 
                 {/* Overview Tab */}
                 <TabsContent value="overview" className="mt-4 space-y-4">

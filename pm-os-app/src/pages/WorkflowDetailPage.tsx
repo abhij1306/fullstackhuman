@@ -8,7 +8,6 @@ import { ScrollArea } from "@/components/ui/scroll-area"
 import { useState, useEffect, useMemo } from "react"
 import {
   ArrowLeft,
-  Terminal,
   Layers,
   Hash,
   FileText,
@@ -356,17 +355,15 @@ export default function WorkflowDetailPage() {
                       e.preventDefault()
                       document.getElementById(heading.id)?.scrollIntoView({ behavior: "smooth" })
                     }}
-                    className={`block py-0.5 text-[11px] transition-colors hover:text-foreground ${
-                      heading.level === 1
+                    className={`block py-0.5 text-[11px] transition-colors hover:text-foreground ${heading.level === 1
                         ? "font-medium"
                         : heading.level === 2
-                        ? "pl-2"
-                        : "pl-4 text-muted-foreground/70"
-                    } ${
-                      activeSection === heading.id
+                          ? "pl-2"
+                          : "pl-4 text-muted-foreground/70"
+                      } ${activeSection === heading.id
                         ? "text-primary font-medium"
                         : "text-muted-foreground"
-                    }`}
+                      }`}
                   >
                     {heading.text}
                   </a>

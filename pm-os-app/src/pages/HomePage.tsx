@@ -9,38 +9,36 @@ const stats = getInsightStats()
 const episodes = getAllEpisodes()
 const totalEpisodes = episodes.length
 
-const stages = PRODUCT_STAGES.map(stage => {
-    const stageIcons: Record<string, any> = {
-        "Discovery": Lightbulb,
-        "Strategy": ClipboardList,
-        "Design": Palette,
-        "Development": Code,
-        "Launch": Rocket,
-        "Growth": TrendingUp,
-        "Scale": Network,
-        "Optimization": Zap,
-        "Cross-Cutting": Layers
-    }
-    const stageColors: Record<string, string> = {
-        "Discovery": "teal",
-        "Strategy": "orange",
-        "Design": "pink",
-        "Development": "purple",
-        "Launch": "blue",
-        "Growth": "green",
-        "Scale": "indigo",
-        "Optimization": "amber",
-        "Cross-Cutting": "red"
-    }
+const stageIcons: Record<string, any> = {
+    "Discovery": Lightbulb,
+    "Strategy": ClipboardList,
+    "Design": Palette,
+    "Development": Code,
+    "Launch": Rocket,
+    "Growth": TrendingUp,
+    "Scale": Network,
+    "Optimization": Zap,
+    "Cross-Cutting": Layers
+}
 
-    return {
-        ...stage,
-        icon: stageIcons[stage.name] || Layers,
-        count: stats[stage.name] || 0,
-        color: stageColors[stage.name] || "gray",
-        iconBg: `icon-bg-${stageColors[stage.name] || "gray"}`
-    }
-})
+const stageIconBg: Record<string, string> = {
+    "Discovery": "icon-bg-teal",
+    "Strategy": "icon-bg-orange",
+    "Design": "icon-bg-pink",
+    "Development": "icon-bg-purple",
+    "Launch": "icon-bg-blue",
+    "Growth": "icon-bg-green",
+    "Scale": "icon-bg-indigo",
+    "Optimization": "icon-bg-amber",
+    "Cross-Cutting": "icon-bg-red"
+}
+
+const stages = PRODUCT_STAGES.map(stage => ({
+    ...stage,
+    icon: stageIcons[stage.name] || Layers,
+    count: stats[stage.name] || 0,
+    iconBg: stageIconBg[stage.name] || "icon-bg-gray"
+}))
 
 export default function HomePage() {
     const navigate = useNavigate()
@@ -88,7 +86,7 @@ export default function HomePage() {
 
             {/* Stats Overview - Horizontal Scrollable Pills */}
             <div className="space-y-4">
-                <div className="flex items-center gap-3 overflow-x-auto pb-2 scrollbar-hide -mx-4 px-4">
+                <div className="flex items-center gap-3 overflow-x-auto pb-4 scrollbar-hide -mx-4 px-4 overflow-y-hidden">
                     {stages.map((stage, index) => (
                         <Link
                             key={stage.name}
@@ -96,13 +94,15 @@ export default function HomePage() {
                             className="animate-fade-in-up flex-shrink-0 group"
                             style={{ animationDelay: `${index * 0.05}s` }}
                         >
-                            <div className="flex items-center gap-3 px-4 py-3 rounded-2xl bg-white border border-gray-100 shadow-sm hover:shadow-md hover:border-gray-200 transition-all hover:-translate-y-0.5">
-                                <div className={`p-2 rounded-xl ${stage.iconBg} transition-transform group-hover:scale-110`}>
-                                    <stage.icon className="h-4 w-4" />
+                            <div className="flex items-center gap-2 px-2.5 py-1.5 rounded-xl bg-white border border-gray-100 shadow-sm hover:shadow-md hover:border-gray-200 transition-all hover:-translate-y-0.5 min-w-[115px]">
+                                <div className={`p-1.5 rounded-lg ${stage.iconBg} transition-transform group-hover:scale-110 shadow-sm`}>
+                                    <stage.icon className="h-3.5 w-3.5" />
                                 </div>
-                                <div>
-                                    <p className="text-xs text-muted-foreground font-medium">{stage.name}</p>
-                                    <p className="text-lg font-bold leading-none">{stage.count}</p>
+                                <div className="min-w-0 pr-0.5">
+                                    <p className="text-[9px] text-muted-foreground font-black uppercase tracking-wider truncate">
+                                        {stage.name}
+                                    </p>
+                                    <p className="text-lg font-bold leading-tight mt-0">{stage.count}</p>
                                 </div>
                             </div>
                         </Link>

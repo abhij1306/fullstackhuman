@@ -1,0 +1,2826 @@
+{
+    "batch_id": "consolidated",
+    "last_updated": "2026-01-31T11:32:31.351Z",
+    "episodes_processed": 100,
+    "insights": [
+        {
+            "slug": "adriel-frederick",
+            "guest": "Adriel Frederick",
+            "title": "Humanizing product development | Adriel Frederick (Reddit, Lyft, Facebook)",
+            "insights": [
+                {
+                    "type": "Framework",
+                    "topic": "Human-in-the-loop AI",
+                    "content": "In algorithmic products, PMs must explicitly define the division of labor between algorithms and humans. Humans are needed for 'judgment calls', understanding long-term intent, and handling local context (e.g., weather events, local taxes) that algorithms cannot see.",
+                    "quotation": "When you are working on algorithmic heavy products, your job is figuring out what the algorithm should be responsible for, what people are responsible for, and the framework for making decisions.",
+                    "stage": "Development",
+                    "tag": "AI"
+                },
+                {
+                    "type": "Strategy",
+                    "topic": "Diversity as Speed",
+                    "content": "Diverse teams (background, ethnicity, nationality) are a competitive advantage for global products because they can 'argue out' product decisions internally using their varied perspectives, saving weeks of external research.",
+                    "quotation": "It just makes you so efficient because an argument that might take two weeks to resolve... we kind of knock out in 15 minutes just throwing it back and forth with each other.",
+                    "stage": "Scale",
+                    "tag": "Culture"
+                },
+                {
+                    "type": "Concept",
+                    "topic": "Ops as First-Order Design",
+                    "content": "For products with an operational component (like Lyft), operations must be treated as a first-order design constraint and capability, not an afterthought. Build tools for ops teams to make informed decisions.",
+                    "quotation": "Think about where you want a person to make a decision... and to think about that as a product design problem.",
+                    "stage": "Design",
+                    "tag": "Operations"
+                },
+                {
+                    "type": "Growth",
+                    "topic": "Cannonballs vs Lead Bullets",
+                    "content": "While most growth is 'many lead bullets' (small optimizations), occasionally you need 'cannonballs'—fundamental product changes requiring massive investment but yielding massive impact (e.g., FB sign-up with phone numbers).",
+                    "quotation": "There's no silver bullets, just many lead bullets. [Adriel]: Yes. And a few massive cannonballs every now and then.",
+                    "stage": "Growth",
+                    "tag": "Strategy"
+                },
+                {
+                    "type": "Metric",
+                    "topic": "Meaningful Metrics",
+                    "content": "The famous '10 friends in 7 days' metric wasn't magic; its power was in being a memorable, communicable goal that rallied the team to remove friction.",
+                    "quotation": "What I thought was brilliant about that was not the metric, it was the designing it to be understood and communicated.",
+                    "stage": "Growth",
+                    "tag": "Metrics"
+                },
+                {
+                    "type": "Soft Skills",
+                    "topic": "Empathy Breakdown",
+                    "content": "The hardest part of empathy is not putting someone else's shoes on, but taking your own shoes off (removing your own biases, goals, and assumptions) before trying to understand others.",
+                    "quotation": "The hardest part is taking my own shoes off.",
+                    "stage": "Cross-Cutting",
+                    "tag": "Leadership"
+                }
+            ],
+            "publish_date": "2022-10-20",
+            "youtube_url": "https://www.youtube.com/watch?v=uMhBej6-Ey4"
+        },
+        {
+            "slug": "aishwarya-naresh-reganti-kiriti-badam",
+            "guest": "Aishwarya Naresh Reganti + Kiriti Badam",
+            "title": "Why most AI products fail: Lessons from 50+ AI deployments at OpenAI, Google & Amazon",
+            "insights": [
+                {
+                    "type": "Framework",
+                    "topic": "CC/CD Framework (High Control -> High Agency)",
+                    "content": "To build reliable AI agents, use the CC/CD (Continuous Calibration, Continuous Development) framework. Start with 'High Control, Low Agency' (human approves AI suggestions), capturing human corrections to build a flywheel. Gradually increase agency to 'Low Control, High Agency' (autonomous execution) only after behavior is calibrated.",
+                    "quotation": "It's all about behavior calibration... start with high control, low agency... and then if that's starting to go well, then you give it more agency.",
+                    "stage": "Development",
+                    "tag": "AI"
+                },
+                {
+                    "type": "Optimization",
+                    "topic": "Evals vs Production Monitoring",
+                    "content": "Evaluation datasets (Evals) only catch known failure modes. Production Monitoring (implicit signals like 'regenerate answer') is essential to catch unknown, emergent failure patterns in non-deterministic AI systems.",
+                    "quotation": "Evaluation metrics catch only the errors that you're already aware of, but there can be a lot of emerging patterns that you understand only after you put things in production.",
+                    "stage": "Optimization",
+                    "tag": "AI"
+                },
+                {
+                    "type": "Strategy",
+                    "topic": "AI as a Tool",
+                    "content": "The best AI engineers/PMs are obsessed with the customer problem and workflow, not the model. AI is just a tool to solve the workflow.",
+                    "quotation": "Be obsessed with the problem. AI is just a tool... 80% of so called AI engineers spend their time actually understanding their workflows very well.",
+                    "stage": "Strategy",
+                    "tag": "Product Mindset"
+                }
+            ],
+            "publish_date": "2026-01-11",
+            "youtube_url": "https://www.youtube.com/watch?v=z7T1pCxgvlA"
+        },
+        {
+            "slug": "alex-hardimen",
+            "guest": "Alex Hardimen",
+            "title": "An inside look at how the New York Times builds product | Alex Hardiman (CPO, the New York Times)",
+            "insights": [
+                {
+                    "type": "Strategy",
+                    "topic": "Algorithmic + Editorial Judgment",
+                    "content": "Unlike tech platforms that optimize purely for engagement, NYT trains algorithms on 'editorial importance scores' from journalists. This allows scaling expert human judgment to millions of users, optimizing for quality/mission rather than just clicks.",
+                    "quotation": "We're training algorithms on specific data sets, like editorial important scores that actually come from our journalists... scale editorial judgment to a large group of readers.",
+                    "stage": "Introduction",
+                    "tag": "Strategy"
+                },
+                {
+                    "type": "Strategy",
+                    "topic": "Mission-Driven Business",
+                    "content": "At mission-driven organizations, business goals (growing subscribers) exist to serve the mission (seek truth), not the other way around. Product impact is defined by both metrics (subs) and mission outcomes (policy change from a story).",
+                    "quotation": "Our impact and our business goals are in service of our mission... growing a giant subscription business exists to strengthen an informed democracy.",
+                    "stage": "Strategy",
+                    "tag": "Mission"
+                },
+                {
+                    "type": "Career",
+                    "topic": "Full-Stack Product Management",
+                    "content": "PMs at media companies like NYT work across the full stack: Content, Distribution, and Product. Tech PMs often only own Software + Distribution. This requires Media PMs to blend art (content judgment) and science (metrics).",
+                    "quotation": "A key difference... is that you work across the full stack of the product. Meaning, we own our journalism and our content... and we own our products.",
+                    "stage": "Cross-Cutting",
+                    "tag": "Career"
+                }
+            ],
+            "publish_date": "2022-11-13",
+            "youtube_url": "https://www.youtube.com/watch?v=y3-cwoHMwQs"
+        },
+        {
+            "slug": "alex-komoroske",
+            "guest": "Alex Komoroske",
+            "title": "Thinking like a gardener, slime mold, the adjacent possible: Product advice from Alex Komoroske",
+            "insights": [
+                {
+                    "type": "Mental Model",
+                    "topic": "Gardener vs Builder Mindset",
+                    "content": "The 'Builder Mindset' treats the world as raw material to be manipulated into a plan. The 'Gardener Mindset' involves cultivating an environment where systems (products, teams) grow on their own. Gardening scales better because it leverages emergence.",
+                    "quotation": "What I look for instead are things that can be gardened, things that can grow on their own and that you can direct... If you do this properly, it looks like magic.",
+                    "stage": "Strategy",
+                    "tag": "Mental Models"
+                },
+                {
+                    "type": "Mental Model",
+                    "topic": "The Adjacent Possible",
+                    "content": "Instead of trying to 'jump' to a distant end state (high risk), focus on the 'adjacent possible'—actions within arm's reach that will almost certainly work. Each step reconfigures the environment, revealing new options. This allows reaching ambitious goals through safe, incremental steps.",
+                    "quotation": "The adjacent possible is a set of actions that you do... that if you do them, they would work, almost certainly work... arc to wildly different outcomes than look like they were possible.",
+                    "stage": "Strategy",
+                    "tag": "Product Strategy"
+                },
+                {
+                    "type": "Strategy",
+                    "topic": "Ecosystem Design",
+                    "content": "Look for 'compounding loops' or network effects where value accelerates with participation. Plant small seeds in these fertile areas. If they grow, invest more (unit economics); if not, let them die cheaply.",
+                    "quotation": "Anything that is shaped like an ecosystem that has some kind of network effect... have some kind of compounding loop.",
+                    "stage": "Growth",
+                    "tag": "Network Effects"
+                },
+                {
+                    "type": "Leadership",
+                    "topic": "Strategy Salons",
+                    "content": "To foster innovation, create small, private 'safe spaces' (Strategy Salons) with diverse perspectives where half-formed ideas can be shared without judgment. Ideally 4 people who respect each other but think differently.",
+                    "quotation": "You want the smallest seed of people that you know are going to be actively engaged... and then you need to feed it.",
+                    "stage": "Culture",
+                    "tag": "Innovation"
+                }
+            ],
+            "publish_date": "2024-10-03",
+            "youtube_url": "https://www.youtube.com/watch?v=PoWRYBWSqpU"
+        },
+        {
+            "slug": "ami-vora",
+            "guest": "Ami Vora",
+            "title": "Making an impact through authenticity and curiosity | Ami Vora (CPO at Faire, ex-WhatsApp, FB, IG)",
+            "insights": [
+                {
+                    "type": "Leadership",
+                    "topic": "Complimentary Management",
+                    "content": "A healthy manager-report relationship frames roles as: Manager owns context (what matters to the biz), Employee owns recommendation. Don't try to guess what the manager would decide; share your unique recommendation based on your deep data.",
+                    "quotation": "My manager owns context, I own the recommendation.",
+                    "stage": "Cross-Cutting",
+                    "tag": "Career"
+                },
+                {
+                    "type": "Process",
+                    "topic": "Product Reviews for Principles",
+                    "content": "Use product reviews to calibrate on *principles* rather than just getting a yes/no on a feature. If you leave a review with a set of decision-making principles, you don't need to return for every subsequent decision.",
+                    "quotation": "The goal of that decision is to walk out with principles about how to make these decisions in the future so that you don't have to come to product review.",
+                    "stage": "Development",
+                    "tag": "Process"
+                },
+                {
+                    "type": "Growth",
+                    "topic": "Metrics Tree (Input vs Output)",
+                    "content": "Don't goal every team on topline revenue/GMV. Break it down into a metrics tree of *input metrics* (e.g., visit freq, conversion rate) that individual teams can actually move and see the connection to their work.",
+                    "quotation": "Can you goal on those input metrics... Rather than going strictly on the output.",
+                    "stage": "Growth",
+                    "tag": "Metrics"
+                },
+                {
+                    "type": "Philosophy",
+                    "topic": "Execution vs Strategy",
+                    "content": "Execution eats strategy because customers only experience the execution. A perfect strategy with poor execution yields 0 learning (did the strategy fail or the build?). Good execution with mediocre strategy yields learning (we built it right, but nobody wanted it, so change the strategy).",
+                    "quotation": "Customers don't care about your fancy strategies and your five-year plan. They care about the product that's in their hands.",
+                    "stage": "Execution",
+                    "tag": "Strategy"
+                }
+            ],
+            "publish_date": "2024-06-23",
+            "youtube_url": "https://www.youtube.com/watch?v=6UHAop9fhNU"
+        },
+        {
+            "slug": "boz",
+            "guest": "Andrew ‘Boz’ Bosworth",
+            "title": "Making Meta | Andrew ‘Boz’ Bosworth (CTO)",
+            "insights": [
+                {
+                    "type": "Mindset",
+                    "topic": "Impact of Passion",
+                    "content": "Passion is a productivity multiplier. When you are passionate about the work, you are an order of magnitude more productive and do smarter work.",
+                    "quotation": "When you're passionate about something... you're, in order of magnitude, more productive.",
+                    "stage": "Cross-Cutting",
+                    "tag": "Mindset"
+                },
+                {
+                    "type": "Strategy",
+                    "topic": "Monetization = Utility",
+                    "content": "High monetization efficiency (like FB News Feed Ads) correlates strongly with high human utility. If people pay (with attention or money), it signals value.",
+                    "quotation": "I do think it suggests the economic power you've created, which I do think correlates very strongly with human utility.",
+                    "stage": "Growth",
+                    "tag": "Strategy"
+                }
+            ],
+            "publish_date": "2024-03-03",
+            "youtube_url": "https://www.youtube.com/watch?v=_XqDB2Upr3s"
+        },
+        {
+            "slug": "andy-johns",
+            "guest": "Andy Johns",
+            "title": "Andy Johns on Product-Market Fit and the Psychology of Growth",
+            "insights": [
+                {
+                    "type": "Definition",
+                    "topic": "Product-Market Fit (PMF)",
+                    "content": "PMF isn't a state you reach; it's a pulse you maintain. It's the moment when the market pulls the product out of you faster than you can build it.",
+                    "quotation": "If you have to ask if you have PMF, you don't. When you have it, you're struggling to keep the servers from melting while the users scream for more.",
+                    "stage": "Discovery",
+                    "tag": "PMF"
+                }
+            ],
+            "publish_date": "2023-09-10",
+            "youtube_url": "https://www.youtube.com/watch?v=_93m4PriHyc"
+        },
+        {
+            "slug": "anneka-gupta",
+            "guest": "Anneka Gupta",
+            "title": "Becoming more strategic, navigating difficult colleagues, founder mode, more | Anneka Gupta",
+            "insights": [
+                {
+                    "type": "Definition",
+                    "topic": "What is Strategic?",
+                    "content": "Being strategic means 1) Articulating a compelling 'Why' behind decisions/direction, and 2) Championing hard changes that are best for the long-term, even if difficult to execute.",
+                    "quotation": "When people say, 'I want someone that's strategic,' what they're really saying is, 'I want someone that can come up with and articulate a compelling and simple why...'",
+                    "stage": "Strategy",
+                    "tag": "Career"
+                },
+                {
+                    "type": "Mindset",
+                    "topic": "Fun as an Abundance Mindset",
+                    "content": "Reframing difficult situations (e.g., mass firing/hiring) with 'How can I have fun with this?' shifts perspective from scarcity (fear) to abundance (opportunity), unlocking creative solutions.",
+                    "quotation": "When I was able to switch my mindset and say, 'Well, I'm actually going to figure out a way to have fun with this,' it actually changed my entire [approach].",
+                    "stage": "Cross-Cutting",
+                    "tag": "Mindset"
+                },
+                {
+                    "type": "Leadership",
+                    "topic": "Managing Difficult Personalities",
+                    "content": "Navigate difficult colleagues by 1) Identifying their core driver (ego, career, mission) to align incentives, and 2) Finding one thing to learn from them (skills, presence) to foster genuine gratitude and reduce frustration.",
+                    "quotation": "Try to study that person and be curious about them, learn from them and then thank them for that.",
+                    "stage": "Cross-Cutting",
+                    "tag": "Leadership"
+                }
+            ],
+            "publish_date": "2024-10-17",
+            "youtube_url": "https://www.youtube.com/watch?v=E3dUveqt9Bw"
+        },
+        {
+            "slug": "annie-pearl",
+            "guest": "Annie Pearl",
+            "title": "Behind the scenes of Calendly’s rapid growth | Annie Pearl (CPO)",
+            "insights": [
+                {
+                    "type": "Process",
+                    "topic": "Committing to Phases, Not Dates",
+                    "content": "Don't commit to a ship date at the start. Commit to the *Discovery* phase completion. If Discovery succeeds, commit to the *Solutioning* phase. Only commit to a Ship Date once solutioning is done and you enter *Build*.",
+                    "quotation": "We've gotten a lot better at making the commitments around the work that's right in front of us versus making a commitment around a project six months out.",
+                    "stage": "Development",
+                    "tag": "Planning"
+                },
+                {
+                    "type": "Framework",
+                    "topic": "Strategy Flow",
+                    "content": "Alignment flows from: 3-Year Company Strategy -> Annual Company OKRs -> Quarterly Product Roadmap. This ensures every quarterly feature ladders up to the long-term vision.",
+                    "quotation": "We have the company level OKRs... and then obviously our product roadmaps are going to be in support of those key results.",
+                    "stage": "Strategy",
+                    "tag": "Alignment"
+                }
+            ],
+            "publish_date": "2023-02-26",
+            "youtube_url": "https://www.youtube.com/watch?v=-tUIGpgmsZw"
+        },
+        {
+            "slug": "anuj-rathi",
+            "guest": "Anuj Rathi",
+            "title": "The full-stack PM | Anuj Rathi (Swiggy, Jupiter Money, Flipkart)",
+            "insights": [
+                {
+                    "type": "Leadership",
+                    "topic": "Can't, Won't, or Not Set Up",
+                    "content": "When things fail, it's usually one of 3 reasons: 1) Capability (Can't do it - needs training/move), 2) Motivation (Won't do it - needs alignment), or 3) Environment (Not set up - leader's fault, needs org design).",
+                    "quotation": "There are only three reasons why things do not happen... either that person can't do... or they won't do... or they were not set up to do.",
+                    "stage": "Cross-Cutting",
+                    "tag": "Leadership"
+                },
+                {
+                    "type": "Framework",
+                    "topic": "Show Don't Tell (Working Backwards)",
+                    "content": "Visuals/PRs align stakeholders faster than strategy docs. CXOs and cross-functional teams understand the 'why' and 'what' instantly when shown the end state, preventing misalignment.",
+                    "quotation": "I think the largest impact that the show don't tell has is on... getting the entire company together on the same page.",
+                    "stage": "Strategy",
+                    "tag": "Communication"
+                },
+                {
+                    "type": "Strategy",
+                    "topic": "Explore 3 Directions",
+                    "content": "Force teams to explore 3 divergent directions before settling on one. This prevents local optimization and allows comparing trade-offs explicitly.",
+                    "quotation": "I'm choosing one alternative versus the other... rather than look at the entire picture together.",
+                    "stage": "Discovery",
+                    "tag": "Decision Making"
+                }
+            ],
+            "publish_date": "2023-12-07",
+            "youtube_url": "https://www.youtube.com/watch?v=1sClhfuCxP0"
+        },
+        {
+            "slug": "april-dunford",
+            "guest": "April Dunford",
+            "title": "April Dunford on Product Positioning",
+            "insights": [
+                {
+                    "type": "Framework",
+                    "topic": "The Positioning Canvas",
+                    "content": "Positioning isn't messaging; it's the context you provide for your product. Define: 1) Alternatives, 2) Unique Attributes, 3) Value, 4) Market Category, 5) Target.",
+                    "quotation": "If you don't define the category, your customers will. And they'll usually pick a category that makes your product look limited.",
+                    "stage": "Strategy",
+                    "tag": "Positioning"
+                }
+            ],
+            "publish_date": "2023-10-22",
+            "youtube_url": "https://www.youtube.com/watch?v=-VqmFI9vY7w"
+        },
+        {
+            "slug": "bangaly-kaba",
+            "guest": "Bangaly Kaba",
+            "title": "Unorthodox frameworks for growing your product, career, and impact | Bangaly Kaba (YT, IG, FB)",
+            "insights": [
+                {
+                    "type": "Framework",
+                    "topic": "The Impact Equation",
+                    "content": "Change/Impact requires all 5: Vision + Skills + Incentives + Resources + Action Plan. If you are missing one, you get confusion, anxiety, resistance, frustration, or false starts.",
+                    "quotation": "I found this framework travels with me. It's got these five components... and you need all of those to have change.",
+                    "stage": "Cross-Cutting",
+                    "tag": "Change Management"
+                },
+                {
+                    "type": "Process",
+                    "topic": "Understand Work",
+                    "content": "Anti-pattern: Identify -> Justify -> Execute. \nBetter Pattern: Understand -> Identify -> Execute. \nSpend time 'Understanding' (Deep dive data, code, first principles) before you even Identify what to build.",
+                    "quotation": "Call that identify, justify, execute. First you have to really understand from first principles... So understand, identify, execute.",
+                    "stage": "Discovery",
+                    "tag": "Process"
+                },
+                {
+                    "type": "Process",
+                    "topic": "Portfolio of Work",
+                    "content": "Every sprint should have a mix. Don't just do 'Understand Work' for months. Mix 'Understand Work' with 'Low Effort / High Impact' execution to maintain momentum and morale.",
+                    "quotation": "Build a portfolio of work to do every sprint... some of which should be low effort, high impact... some of which should be medium effort, high impact.",
+                    "stage": "Execution",
+                    "tag": "Planning"
+                }
+            ],
+            "publish_date": "2024-05-26",
+            "youtube_url": "https://www.youtube.com/watch?v=Ub9UkWByFIQ"
+        },
+        {
+            "slug": "ben-horowitz",
+            "guest": "Ben Horowitz",
+            "title": "$46B of hard truths: Why founders fail and why you need to run toward fear | Ben Horowitz (a16z)",
+            "insights": [
+                {
+                    "type": "Leadership",
+                    "topic": "Decision Making in the Abyss",
+                    "content": "A leader's hardest job is making a decision when both options are terrible (e.g., IPO too early vs bankruptcy). You must build the psychological muscle to choose the 'slightly better' path without hesitation.",
+                    "quotation": "The psychological muscle you have to build... is to be able to click in the abyss and go, 'Okay, that way's slightly better.'",
+                    "stage": "Strategy",
+                    "tag": "Leadership"
+                },
+                {
+                    "type": "Definition",
+                    "topic": "PM is CEO",
+                    "content": "The Product Manager is the CEO of the product because no one reports to them, yet they must deliver a product that works. This requires leading through influence and competence rather than authority.",
+                    "quotation": "The job is fundamentally a leadership job. And it's a tricky leadership job because nobody is actually reporting to you.",
+                    "stage": "Strategy",
+                    "tag": "Career"
+                }
+            ],
+            "publish_date": "2025-09-11",
+            "youtube_url": "https://www.youtube.com/watch?v=KPxTekxQjzc"
+        },
+        {
+            "slug": "bob-baxley",
+            "guest": "Bob Baxley",
+            "title": "35 years of product design wisdom from Apple, Disney, Pinterest and beyond | Bob Baxley",
+            "insights": [
+                {
+                    "type": "Definition",
+                    "topic": "What is Design?",
+                    "content": "Design is not just aesthetics; it is the act of imagining the future you want to live in and taking the steps to make it real.",
+                    "quotation": "Design is trying to imagine the future you want to live in and then take the steps to make it real.",
+                    "stage": "Design",
+                    "tag": "Philosophy"
+                },
+                {
+                    "type": "Culture",
+                    "topic": "Design-Led DNA",
+                    "content": "You cannot graft a 'design-led' culture onto a company later. It must be in the root DNA from the beginning.",
+                    "quotation": "Saying a company is design-led does not mean it's designer-led. I've never seen somebody graft it on after the fact.",
+                    "stage": "Culture",
+                    "tag": "Design"
+                }
+            ],
+            "publish_date": "2025-06-12",
+            "youtube_url": "https://www.youtube.com/watch?v=X-83gvgVaWc"
+        },
+        {
+            "slug": "bob-moesta",
+            "guest": "Bob Moesta",
+            "title": "Bob Moesta on Jobs-to-be-Done (JTBD)",
+            "insights": [
+                {
+                    "type": "Framework",
+                    "topic": "The 4 Forces of Progress",
+                    "content": "People don't just buy products; they switch. Forces: 1) Push of the old, 2) Pull of the new, 3) Anxiety of the new, 4) Habit of the old. You must solve for all four.",
+                    "quotation": "The 'job' isn't what the product does. It's what the customer is trying to become. Solve the progress, not the task.",
+                    "stage": "Discovery",
+                    "tag": "Design"
+                }
+            ],
+            "publish_date": "2025-02-23",
+            "youtube_url": "https://www.youtube.com/watch?v=2wypVv9wZtI"
+        },
+        {
+            "slug": "brandon-chu",
+            "guest": "Brandon Chu",
+            "title": "The art of product management | Brandon Chu (Shopify)",
+            "insights": [
+                {
+                    "type": "Strategy",
+                    "topic": "Platform PM Cycles",
+                    "content": "Platform PMs operate on 5-10x longer cycles than Product PMs. You design a canvas for developers, and validation comes years later when end-users use the apps built on your platform.",
+                    "quotation": "The cycles for platform work are five to 10 odd times longer... You're designing a canvas for developers.",
+                    "stage": "Strategy",
+                    "tag": "Platform"
+                },
+                {
+                    "type": "Career",
+                    "topic": "Generalist Executive",
+                    "content": "To become an executive, refuse to specialize. Learn to speak the language of all functions (Sales, Marketing, Engineering) so you can converse with the CEO on any topic.",
+                    "quotation": "Refusing to specialize... was a much faster path to the true executive role because I could speak better with CEOs about more topics.",
+                    "stage": "Cross-Cutting",
+                    "tag": "Career"
+                }
+            ],
+            "publish_date": "2025-06-19",
+            "youtube_url": "https://www.youtube.com/watch?v=eKuFqQKYRrA"
+        },
+        {
+            "slug": "brian-chesky",
+            "guest": "Brian Chesky",
+            "title": "Brian Chesky’s new playbook",
+            "insights": [
+                {
+                    "type": "Leadership",
+                    "topic": "In the Details",
+                    "content": "Leaders must be in the details to hold people accountable. It is not micromanagement; it is responsible stewardship, just as a board is to a CEO.",
+                    "quotation": "If you don't know the details, how do you know people are doing a good job?",
+                    "stage": "Leadership",
+                    "tag": "Founders"
+                },
+                {
+                    "type": "Strategy",
+                    "topic": "Reliability in Marketplaces",
+                    "content": "For unique marketplaces (like Airbnb), reliability is the weakness compared to standardized competitors (Hotels). 'Guest Favorites' solves this by curating the top 2M homes to offer hotel-like reliability with Airbnb uniqueness.",
+                    "quotation": "Reliability is Airbnb's achilles heel... Guest Favorites... combine the uniqueness of Airbnb with a reliability.",
+                    "stage": "Growth",
+                    "tag": "Strategy"
+                }
+            ],
+            "publish_date": "2023-11-12",
+            "youtube_url": "https://www.youtube.com/watch?v=4ef0juAMqoE"
+        },
+        {
+            "slug": "camille-fournier",
+            "guest": "Camille Fournier",
+            "title": "The things engineers are desperate for PMs to understand | Camille Fournier",
+            "insights": [
+                {
+                    "type": "Leadership",
+                    "topic": "Technical Debt Management",
+                    "content": "PMs and Eng leads must co-manage tech debt. Treat Eng health as a feature, not a tax. Reserve 20% of every sprint for structural improvements to maintain velocity.",
+                    "quotation": "If you ignore your foundation to build another floor, the whole house will eventually fall down. Velocity is a function of a healthy codebase.",
+                    "stage": "Optimization",
+                    "tag": "Collaboration"
+                },
+                {
+                    "type": "Soft Skills",
+                    "topic": "Hoarding Credit",
+                    "content": "The #1 annoyances for engineers is PMs hoarding credit. PMs are the face of the project, so they must proactively share credit with the engineers who did the hard work.",
+                    "quotation": "Hoarding credit... Engineers sometimes think that don't get the credit... shows a real lack of empathy.",
+                    "stage": "Cross-Cutting",
+                    "tag": "Engineering"
+                },
+                {
+                    "type": "Management",
+                    "topic": "One-on-Ones Don't Scale",
+                    "content": "Relying on one-on-ones for stakeholder management creates silos and fails to scale. You cannot maintain awareness or alignment through linear 1:1 meetings as the org grows.",
+                    "quotation": "It's just not a scalable approach... having all these meetings as one-on-ones... can actually be kind of a weakness.",
+                    "stage": "Leadership",
+                    "tag": "Management"
+                }
+            ],
+            "publish_date": "2024-09-15",
+            "youtube_url": "https://www.youtube.com/watch?v=hZSh0rs20uI"
+        },
+        {
+            "slug": "camille-hearst",
+            "guest": "Camille Hearst",
+            "title": "Monetizing passions, scaling marketplaces | Camille Hearst",
+            "insights": [
+                {
+                    "type": "Culture",
+                    "topic": "Apple vs Google DNA",
+                    "content": "Apple's culture was 'tinker and craft' (Design/Engineering led). Google's was '3D Chess' (Strategy led). At Apple, the story/messaging often defined the features months in advance.",
+                    "quotation": "Let's tinker and let's craft and let's build... We would think months ahead of time, like what's the anchor story.",
+                    "stage": "Discovery",
+                    "tag": "Culture"
+                },
+                {
+                    "type": "Leadership",
+                    "topic": "Steve Jobs and Details",
+                    "content": "Steve Jobs was involved in minute details, such as selecting specific songs for a press demo iTunes library. Great leaders care about the specific experience.",
+                    "quotation": "He was very involved in the entire presentation and someone had to go do all that.",
+                    "stage": "Leadership",
+                    "tag": "Craft"
+                }
+            ],
+            "publish_date": "2023-08-20",
+            "youtube_url": "https://www.youtube.com/watch?v=oB-BjEjxHNw"
+        },
+        {
+            "slug": "casey-winters",
+            "guest": "Casey Winters",
+            "title": "Why most product managers are unprepared | Casey Winters",
+            "insights": [
+                {
+                    "type": "Hiring",
+                    "topic": "Product Manager Spectrum",
+                    "content": "PMs exist on a spectrum from 'Innovators' (Great ideas, poor execution) to 'Executors' (Great execution, no ideas). CPOs want the middle ground—strategic enough to have ideas, capable enough to ship.",
+                    "quotation": "We want people in the middle... people who are strategic... but can also turn it into something real.",
+                    "stage": "Leadership",
+                    "tag": "Hiring"
+                },
+                {
+                    "type": "Growth",
+                    "topic": "Content Loops",
+                    "content": "Coda's growth comes from 'Content Loops' where users create docs (roadmaps, OKRs) that are shared and copied by others, embedding best practices into the viral loop.",
+                    "quotation": "Embedding the sharing of best practices of scaling companies into their core product and growth loops.",
+                    "stage": "Growth",
+                    "tag": "Loops"
+                }
+            ],
+            "publish_date": "2023-04-14",
+            "youtube_url": "https://www.youtube.com/watch?v=WlRfyEpAKxw"
+        },
+        {
+            "slug": "chandra-janakiraman",
+            "guest": "Chandra Janakiraman",
+            "title": "An operator’s guide to product strategy | Chandra Janakiraman",
+            "insights": [
+                {
+                    "type": "Framework",
+                    "topic": "The Winning Aspiration",
+                    "content": "A key part of strategy is the 'Winning Aspiration'—a simple newspaper headline from the future that describes the impact on the world. Generate this bottom-up from the team.",
+                    "quotation": "The newspaper headline is something like, 'Facebook has moved the needle on consumer trust...'",
+                    "stage": "Strategy",
+                    "tag": "Framework"
+                },
+                {
+                    "type": "Alignment",
+                    "topic": "Blender Approach",
+                    "content": "To build alignment, have every team member write their own 'headline', then blend them together. Strategy that feels like it came from the team is easier to accept and execute.",
+                    "quotation": "Something that comes from you, feels a lot more familiar and easy to accept.",
+                    "stage": "Culture",
+                    "tag": "Alignment"
+                }
+            ],
+            "publish_date": "2025-01-26",
+            "youtube_url": "https://www.youtube.com/watch?v=WFLH8Af2f30"
+        },
+        {
+            "slug": "chip-huyen",
+            "guest": "Chip Huyen",
+            "title": "Chip Huyen on ML System Design",
+            "insights": [
+                {
+                    "type": "Framework",
+                    "topic": "ML Monitoring Flywheel",
+                    "content": "In ML systems, production monitoring is a first-class feature. Signals like 'user corrected output' must be fed back into training to prevent model drift.",
+                    "quotation": "In production, monitoring is not just about uptime; it's about data drift and model performance. You need a loop to get that data back into the system.",
+                    "stage": "Optimization",
+                    "tag": "AI"
+                }
+            ],
+            "publish_date": "2025-10-23",
+            "youtube_url": "https://www.youtube.com/watch?v=qbvY0dQgSJ4"
+        },
+        {
+            "slug": "chris-hutchins",
+            "guest": "Chris Hutchins",
+            "title": "Launching and growing a podcast | Chris Hutchins",
+            "insights": [
+                {
+                    "type": "Growth",
+                    "topic": "Consistency is Quality",
+                    "content": "The easiest way to be in the top 4% of podcasts is simply to publish consistently (e.g., weekly for 10 weeks). Most fail due to lack of consistency.",
+                    "quotation": "If you just do an episode a week for 10 weeks, you're now in the top 4% of all podcasts.",
+                    "stage": "Growth",
+                    "tag": "Consistency"
+                },
+                {
+                    "type": "Community",
+                    "topic": "1000 True Fans",
+                    "content": "Focus on building deep relationships with your first listeners. Make something that is *someone's* favorite episode. This creates the advocates who drive growth.",
+                    "quotation": "I always try to put something out that's someone's favorite.",
+                    "stage": "Growth",
+                    "tag": "Community"
+                }
+            ],
+            "publish_date": "2022-12-18",
+            "youtube_url": "https://www.youtube.com/watch?v=kc1XhB4k0Eg"
+        },
+        {
+            "slug": "christian-idiodi",
+            "guest": "Christian Idiodi",
+            "title": "The essence of product management | Christian Idiodi (SVPG)",
+            "insights": [
+                {
+                    "type": "Definition",
+                    "topic": "Essence of PM",
+                    "content": "The essence of product management is waking up on behalf of someone else to solve their problem well enough that they give you something back (revenue, loyalty). It is a form of service.",
+                    "quotation": "The real essence of this job is that you wake up on behalf of someone else to solve a problem for them.",
+                    "stage": "Discovery",
+                    "tag": "Philosophy"
+                },
+                {
+                    "type": "Leadership",
+                    "topic": "Certificate of Appreciation",
+                    "content": "Value exchange is the core measure of success. If you solve a problem well, the customer gives you a 'certificate of appreciation' in the form of money or engagement.",
+                    "quotation": "I always call it a certificate of appreciation... revenue, engagement, loyalty.",
+                    "stage": "Strategy",
+                    "tag": "Value"
+                }
+            ],
+            "publish_date": "2023-12-21",
+            "youtube_url": "https://www.youtube.com/watch?v=SXYc5RoU3Lg"
+        },
+        {
+            "slug": "christina-wodtke",
+            "guest": "Christina Wodtke",
+            "title": "The ultimate guide to OKRs | Christina Wodtke (Stanford)",
+            "insights": [
+                {
+                    "type": "Culture",
+                    "topic": "Friday Celebrations",
+                    "content": "Celebrations are undervalued. Even without OKRs, simply gathering weekly to ask 'What was the most awesome thing that happened?' builds momentum and team cohesion.",
+                    "quotation": "People do not value celebrations enough... It makes people feel like they're part of something really special.",
+                    "stage": "Culture",
+                    "tag": "Team"
+                },
+                {
+                    "type": "Framework",
+                    "topic": "OKRs and Momentum",
+                    "content": "OKRs are not just for tracking; they are for creating a rhythm of commitment and celebration. The cadence matters more than the format.",
+                    "quotation": "Things are already changing... The simple act of getting together... makes people feel like they're part of something.",
+                    "stage": "Strategy",
+                    "tag": "OKRs"
+                }
+            ],
+            "publish_date": "2023-03-16",
+            "youtube_url": "https://www.youtube.com/watch?v=kvkL18Ue0dE"
+        },
+        {
+            "slug": "christine-itwaru",
+            "guest": "Christine Itwaru",
+            "title": "Understanding the role of product ops | Christine Itwaru (Pendo)",
+            "insights": [
+                {
+                    "type": "Definition",
+                    "topic": "Product Ops Origin",
+                    "content": "Product Ops often starts from a need to solve shared problems across PMs (e.g., 'I bet I'm not the only one struggling with this'). It is about enabling the product team to be more effective.",
+                    "quotation": "I bet you I'm not the only person who has these questions... This is why I'm building product ops here.",
+                    "stage": "Transformation",
+                    "tag": "Product Ops"
+                },
+                {
+                    "type": "Mindset",
+                    "topic": "PMs and Customers",
+                    "content": "Even as you move into Ops or leadership, never give up spending time with customers. Seeing their pain firsthand is what fuels the love for product.",
+                    "quotation": "I would not ever give up spending time with customers and watching their pain.",
+                    "stage": "Discovery",
+                    "tag": "Customer Centricity"
+                }
+            ],
+            "publish_date": "2023-02-16",
+            "youtube_url": "https://www.youtube.com/watch?v=tGS-NhxrN_Q"
+        },
+        {
+            "slug": "christopher-miller",
+            "guest": "Christopher Miller",
+            "title": "Relentless curiosity, radical accountability, and HubSpot’s winning growth formula | Chris Miller",
+            "insights": [
+                {
+                    "type": "Culture",
+                    "topic": "Radical Accountability",
+                    "content": "HubSpot's growth team succeeded by taking ownership of problems no one else was working on (like self-service revenue). This 'aggressive mentality' and 'radical accountability' proved their value.",
+                    "quotation": "We took it and immediately blew it up... that attitude of saying that every problem is our problem... helped us find opportunities.",
+                    "stage": "Growth",
+                    "tag": "Ownership"
+                },
+                {
+                    "type": "Strategy",
+                    "topic": "Hungry Teams",
+                    "content": "When a team proactively finds and fixes problems the business didn't know it had, they look 'hungry'. Leadership naturally wants to 'feed' (resource) hungry teams.",
+                    "quotation": "When you do that, we look hungry, so let's keep feeding us, right?",
+                    "stage": "Leadership",
+                    "tag": "Growth Team"
+                }
+            ],
+            "publish_date": "2023-08-10",
+            "youtube_url": "https://www.youtube.com/watch?v=SzKKJwuRFZI"
+        },
+        {
+            "slug": "claire-hughes-johnson",
+            "guest": "Claire Hughes Johnson",
+            "title": "Claire Hughes Johnson on Management and Scaling Stripe",
+            "insights": [
+                {
+                    "type": "Leadership",
+                    "topic": "The Operating Manual",
+                    "content": "Create a literal 'Working with Me' doc to fast-track alignment. Define your values, communication style, pet peeves, and decision-making filters.",
+                    "quotation": "Don't make people guess how to succeed with you. Be explicit about your operating system so they can focus on the work, not the politics.",
+                    "stage": "Cross-Cutting",
+                    "tag": "Culture"
+                }
+            ],
+            "publish_date": "2023-03-05",
+            "youtube_url": "https://www.youtube.com/watch?v=Mv0o9o4MRh0"
+        },
+        {
+            "slug": "crystal-widjaja",
+            "guest": "Crystal Widjaja",
+            "title": "Crystal Widjaja on Data-Driven Product Management at Gojek",
+            "insights": [
+                {
+                    "type": "Philosophy",
+                    "topic": "Data as a Compass, Not a Map",
+                    "content": "Data can tell you where you are, but it can't tell you where to go. Use data to validate hypotheses, but rely on user empathy for the hypotheses themselves.",
+                    "quotation": "Data is the score, not the game. You can't win just by watching the scoreboard; you have to play the game with the customers.",
+                    "stage": "Optimization",
+                    "tag": "Analytics"
+                }
+            ]
+        },
+        {
+            "slug": "dalton-caldwell",
+            "guest": "Dalton Caldwell",
+            "title": "Dalton Caldwell on Startup Pitfalls",
+            "insights": [
+                {
+                    "type": "Advice",
+                    "topic": "Problem-Solution Fit",
+                    "content": "Startups often fail by building 'solutions in search of a problem'. Focus 90% of your energy on validating that the problem actually exists before building the solution.",
+                    "quotation": "The number one mistake is building something nobody wants. You have to be sure the problem is real before you write a single line of code.",
+                    "stage": "Discovery",
+                    "tag": "Validation"
+                }
+            ],
+            "publish_date": "2024-04-18",
+            "youtube_url": "https://www.youtube.com/watch?v=m7LvNTbaqSI"
+        },
+        {
+            "slug": "dan-siroker",
+            "guest": "Dan Siroker",
+            "title": "Dan Siroker on Optimization and Optimizely",
+            "insights": [
+                {
+                    "type": "Concept",
+                    "topic": "High-Velocity Experimentation",
+                    "content": "The only way to find winners is to fail fast. Increase the number of experiments per week; velocity is more correlated with success than individual dream-bets.",
+                    "quotation": "The biggest risk is not failing an experiment, but spending six months on something that was never going to work.",
+                    "stage": "Optimization",
+                    "tag": "Experimentation"
+                }
+            ]
+        },
+        {
+            "slug": "deb-liu",
+            "guest": "Deb Liu",
+            "title": "Succeeding as an introvert, building zero-to-one, and PM’ing your career like a product | Deb Liu",
+            "insights": [
+                {
+                    "type": "Career",
+                    "topic": "PM Your Career",
+                    "content": "Many great PMs treat their career poorly, drifting from job to job. You should write a 'spec' for your career: What does success look like? How will you get there?",
+                    "quotation": "Some of the best PMs I have ever worked with are terrible PMs for their career... If I said you had to write a spec for your career...",
+                    "stage": "Cross-Cutting",
+                    "tag": "Career"
+                },
+                {
+                    "type": "Mindset",
+                    "topic": "Always Be Learning",
+                    "content": "The most important career advice is to always be learning. Someone who is always learning will eventually surpass the current expert, because careers are non-linear and cumulative.",
+                    "quotation": "Someone who's always learning is always going to exceed someone who's the expert today.",
+                    "stage": "Cross-Cutting",
+                    "tag": "Growth Mindset"
+                },
+                {
+                    "type": "Soft Skills",
+                    "topic": "Influence Without Authority",
+                    "content": "Product managers must lead through influence by building trust, aligning incentives, and using data to make others the heroes of the success.",
+                    "quotation": "You don't have authority, you only have influence. Your job is to make everyone around you successful so that the product succeeds.",
+                    "stage": "Cross-Cutting",
+                    "tag": "Leadership"
+                }
+            ],
+            "publish_date": "2024-08-22",
+            "youtube_url": "https://www.youtube.com/watch?v=MajB5CQUKDA"
+        },
+        {
+            "slug": "des-traynor",
+            "guest": "Des Traynor",
+            "title": "Des Traynor on Product Strategy and Intercom",
+            "insights": [
+                {
+                    "type": "Philosophy",
+                    "topic": "Saying No to include the 'Yes'",
+                    "content": "Strategic debt is caused by saying 'yes' to too many good ideas. Focus requires the discipline to reject 99% of great ideas to make the 1% world-class.",
+                    "quotation": "Most products die of a thousand feature-requests. The job of the PM is to be the editor-in-chief, not the stenographer.",
+                    "stage": "Strategy",
+                    "tag": "Product Strategy"
+                }
+            ]
+        },
+        {
+            "slug": "dharmesh-shah",
+            "guest": "Dharmesh Shah",
+            "title": "Dharmesh Shah on Inbound and Customer Centricity",
+            "insights": [
+                {
+                    "type": "Philosophy",
+                    "topic": "Solve for the Customer",
+                    "content": "Every technical and product decision should start with 'Solve for the Customer' (SFTC). If it doesn't add value to the end-user, it's waste.",
+                    "quotation": "Success is just a byproduct of how much value you create for your customers. Solve for the customer above everything else.",
+                    "stage": "Strategy",
+                    "tag": "Product Culture"
+                }
+            ],
+            "publish_date": "2024-04-04",
+            "youtube_url": "https://www.youtube.com/watch?v=dpw9Ue1HU48"
+        },
+        {
+            "slug": "dmitry-zlokazov",
+            "guest": "Dmitry Zlokazov",
+            "title": "Revolut's product culture: Raw intellect, ownership, and designing for the top 1% | Dmitry Zlokazov",
+            "insights": [
+                {
+                    "type": "Hiring",
+                    "topic": "Raw Intellect vs Experience",
+                    "content": "Revolut values raw intellect and unquenched hunger over experience. They hire smart people early in their career who want to prove themselves.",
+                    "quotation": "Revolut values way more raw intellect and this unquenched hunger to build things rather than experience.",
+                    "stage": "Culture",
+                    "tag": "Hiring"
+                },
+                {
+                    "type": "Execution",
+                    "topic": "99% Done is 0%",
+                    "content": "In product delivery, if something is 99% done, it is closer to 0% than 100% because users cannot use it. Focus on getting to 100%.",
+                    "quotation": "If something is 99% done, it's closer to 0% rather than 100%.",
+                    "stage": "Execution",
+                    "tag": "Delivery"
+                }
+            ],
+            "publish_date": "2024-01-25",
+            "youtube_url": "https://www.youtube.com/watch?v=-kPpd21bFrE"
+        },
+        {
+            "slug": "dylan-field",
+            "guest": "Dylan Field",
+            "title": "Figma’s CEO: Why AI makes design, craft, and quality the new moat for startups | Dylan Field",
+            "insights": [
+                {
+                    "type": "Strategy",
+                    "topic": "Design as a Moat",
+                    "content": "In a world where AI makes software creation easier, design, craft, and quality become the new differentiators. Unique design is what will separate products.",
+                    "quotation": "In a world of more software being created by AI... the impact on craft and quality and the need to have more unique design... is a differentiator.",
+                    "stage": "Design",
+                    "tag": "AI"
+                },
+                {
+                    "type": "Community",
+                    "topic": "Community as the Product",
+                    "content": "For Figma, the community (at events like Config) is the highlight. The vibrant ecosystem of creators is a competitive advantage that is hard to replicate.",
+                    "quotation": "The highlight is the community... It's just the most amazing community to be part of.",
+                    "stage": "Growth",
+                    "tag": "Community"
+                },
+                {
+                    "type": "Framework",
+                    "topic": "The Multiplayer Flywheel",
+                    "content": "Multiplayer features (real-time collaboration) create a natural viral loop and deep switching costs by making the product the source of truth for teams.",
+                    "quotation": "The reason people stuck with Figma was that they could work together in real-time. It changed from a tool to a place where the team lived.",
+                    "stage": "Growth",
+                    "tag": "Collaboration"
+                }
+            ],
+            "publish_date": "2025-10-16",
+            "youtube_url": "https://www.youtube.com/watch?v=WyJV6VwEGA8"
+        },
+        {
+            "slug": "ebi-atawodi",
+            "guest": "Ebi Atawodi",
+            "title": "Crafting a compelling product vision | Ebi Atawodi (YouTube, Netflix, Uber)",
+            "insights": [
+                {
+                    "type": "Leadership",
+                    "topic": "Loved vs Liked",
+                    "content": "Leaders should aim to be 'loved' (respected for helping others grow) rather than 'liked' (being nice). Love involves hard conversations and extending yourself for another's growth.",
+                    "quotation": "I do not believe in being liked. I believe in being loved... Love is the choice to extend yourself for the spiritual growth of oneself or another.",
+                    "stage": "Leadership",
+                    "tag": "Feedback"
+                },
+                {
+                    "type": "Strategy",
+                    "topic": "Vision Communication",
+                    "content": "A product vision must be communicated clearly and repeatedly. It's about painting a picture of the future that motivates the team.",
+                    "quotation": "Crafting a compelling product vision... concrete ways to communicate your vision to your teammates.",
+                    "stage": "Strategy",
+                    "tag": "Vision"
+                }
+            ],
+            "publish_date": "2023-12-03",
+            "youtube_url": "https://www.youtube.com/watch?v=tBPTwUmaxDs"
+        },
+        {
+            "slug": "eeke-de-milliano",
+            "guest": "Eeke de Milliano",
+            "title": "How to foster innovation and big thinking | Eeke de Milliano (Retool, Stripe)",
+            "insights": [
+                {
+                    "type": "Operations",
+                    "topic": "Variance Reduction",
+                    "content": "Process is 'variance reducing'. It brings low performers up to the average, but can bring high performers down to the average, stifling innovation.",
+                    "quotation": "Process, by definition, is variance reducing... you're also bringing other folks down to the average.",
+                    "stage": "Scale",
+                    "tag": "Process"
+                },
+                {
+                    "type": "Culture",
+                    "topic": "Innovation vs Process",
+                    "content": "As companies grow, they add process to reduce risk, but the cost is often the 'crazy' creative thinking that drove early success. You must actively protect innovation zones.",
+                    "quotation": "It's harder to get all these folks who don't need processing... you actually want to reduce the variance.",
+                    "stage": "Culture",
+                    "tag": "Innovation"
+                }
+            ],
+            "publish_date": "2023-02-02",
+            "youtube_url": "https://www.youtube.com/watch?v=2ezz4KJe7kA"
+        },
+        {
+            "slug": "elena-verna",
+            "guest": "Elena Verna",
+            "title": "Elena Verna on PLG and Growth Loops",
+            "insights": [
+                {
+                    "type": "Framework",
+                    "topic": "Growth Loops vs Funnels",
+                    "content": "Funnels have a linear end, whereas loops reinvest the output of one cycle into the input of the next, creating sustainable, compounding growth.",
+                    "quotation": "Funnels have an beginning and an end... loops are closed systems where the input creates an output that can be reinvested.",
+                    "stage": "Growth",
+                    "tag": "PLG"
+                }
+            ],
+            "publish_date": "2025-01-19",
+            "youtube_url": "https://www.youtube.com/watch?v=IHwS2By9UKM"
+        },
+        {
+            "slug": "eli-schwartz",
+            "guest": "Eli Schwartz",
+            "title": "Eli Schwartz on Strategic SEO",
+            "insights": [
+                {
+                    "type": "Strategy",
+                    "topic": "Product-Led SEO",
+                    "content": "SEO shouldn't be a checklist of keywords. It should be built into the product's core value proposition so that user actions naturally create searchable content.",
+                    "quotation": "Strategic SEO is when the product's natural usage produces the pages that rank. It's not about stuffing keywords into blog posts.",
+                    "stage": "Growth",
+                    "tag": "SEO"
+                }
+            ],
+            "publish_date": "2024-09-19",
+            "youtube_url": "https://www.youtube.com/watch?v=Z71yGshPTwk"
+        },
+        {
+            "slug": "elizabeth-stone",
+            "guest": "Elizabeth Stone",
+            "title": "Elizabeth Stone on Data Science and Product at Netflix",
+            "insights": [
+                {
+                    "type": "Framework",
+                    "topic": "The Incrementality Test",
+                    "content": "Never trust raw growth numbers. Always run hold-out tests to measure 'incrementality'—the value that wouldn't have existed without the product change.",
+                    "quotation": "Growth is easy to fake. Incrementality is hard to prove. If you aren't testing what happens when you stop, you don't know what you're doing.",
+                    "stage": "Growth",
+                    "tag": "Metrics"
+                }
+            ],
+            "publish_date": "2024-02-22",
+            "youtube_url": "https://www.youtube.com/watch?v=2XgU6T4DalY"
+        },
+        {
+            "slug": "eric-simons",
+            "guest": "Eric Simons",
+            "title": "Inside Bolt: From near-death to one of the fastest-growing products in history | Eric Simons",
+            "insights": [
+                {
+                    "type": "Growth",
+                    "topic": "Overnight Success",
+                    "content": "Bolt looked like an overnight success (0 to 20M ARR in 2 months) but was actually 7 years in the making. The foundation took years to build.",
+                    "quotation": "It was kind of like, Bolt's this overnight success, seven years in the making.",
+                    "stage": "Growth",
+                    "tag": "Persistence"
+                },
+                {
+                    "type": "Leadership",
+                    "topic": "Non-Consensus Conviction",
+                    "content": "Entrepreneurs must make judgment calls that go against consensus. You need confidence in your convictions to play the hand differently.",
+                    "quotation": "There are periods of time where you have to make judgment calls that are not going to be the consensus view.",
+                    "stage": "Leadership",
+                    "tag": "Conviction"
+                }
+            ],
+            "publish_date": "2025-03-13",
+            "youtube_url": "https://www.youtube.com/watch?v=L22DtAHLmzs"
+        },
+        {
+            "slug": "ethan-evans",
+            "guest": "Ethan Evans",
+            "title": "Taking control of your career | Ethan Evans (Amazon)",
+            "insights": [
+                {
+                    "type": "Career",
+                    "topic": "Invention Timeline",
+                    "content": "Invention doesn't require constant new ideas. One good idea (like Prime or Kindle) can take decades to fully express and improve.",
+                    "quotation": "People think invention takes all this time... once you have one good idea, it often takes years to express that.",
+                    "stage": "Career",
+                    "tag": "Innovation"
+                },
+                {
+                    "type": "Career",
+                    "topic": "The Magic Loop",
+                    "content": "A framework for getting promoted: Do your job well -> Build trust -> Ask for more responsibility -> Deliver -> Repeat.",
+                    "quotation": "The Magic Loop... a very simple idea that I guarantee will help you get promoted.",
+                    "stage": "Career",
+                    "tag": "Promotion"
+                },
+                {
+                    "type": "Soft Skills",
+                    "topic": "Executive Presence",
+                    "content": "To influence executives, stop presenting 'updates' and start presenting 'options with tradeoffs'. Leadership wants to see how you think, not just what you did.",
+                    "quotation": "Executives don't want a status update. They want to know where the friction is and what decisions you need them to make to unblock the team.",
+                    "stage": "Cross-Cutting",
+                    "tag": "Leadership"
+                }
+            ],
+            "publish_date": "2024-01-14",
+            "youtube_url": "https://www.youtube.com/watch?v=GB0P0_nFPTA"
+        },
+        {
+            "slug": "eugene-wei",
+            "guest": "Eugene Wei",
+            "title": "Eugene Wei on Invisible Asymptotes",
+            "insights": [
+                {
+                    "type": "Concept",
+                    "topic": "Invisible Asymptotes",
+                    "content": "Every product has an invisible limit (asymptote) to its growth. Identify the friction point (e.g., price, complexity, social risk) and solve it *before* you hit the plateau.",
+                    "quotation": "Growth looks like a hockey stick until it hits the ceiling you didn't see coming. Find the ceiling while you're still rising.",
+                    "stage": "Growth",
+                    "tag": "Strategy"
+                }
+            ]
+        },
+        {
+            "slug": "fareed-mosavat",
+            "guest": "Fareed Mosavat",
+            "title": "How to build trust and grow as a product leader | Fareed Mosavat (Reforge, Slack, Instacart, Pixar)",
+            "insights": [
+                {
+                    "type": "Career",
+                    "topic": "Real Experience",
+                    "content": "You can't learn PMing just from homework or exercises. You need reps on real products with real customers and data.",
+                    "quotation": "You can't do homework... You have to work on real products at real companies... to get better at product management.",
+                    "stage": "Career",
+                    "tag": "Skill Building"
+                },
+                {
+                    "type": "Execution",
+                    "topic": "Core Execution",
+                    "content": "At the core, you have to execute and deliver great products repeatedly. Everything else is just a layer on top.",
+                    "quotation": "At the core is you have to actually execute and deliver great products, and you have to do it over, and over, and over again.",
+                    "stage": "Execution",
+                    "tag": "delivery"
+                },
+                {
+                    "type": "Growth",
+                    "topic": "The Retention-Growth Link",
+                    "content": "You cannot grow your way out of a retention problem. In fact, scaling growth before retention is fixed is 'pouring water into a leaky bucket' and destroys unit economics.",
+                    "quotation": "Growth without retention is just a vanity metric. If you don't have a product people want to keep using, you're just wasting money on acquisition.",
+                    "stage": "Growth",
+                    "tag": "Metrics"
+                }
+            ],
+            "publish_date": "2022-10-23",
+            "youtube_url": "https://www.youtube.com/watch?v=oo0jSep7pzc"
+        },
+        {
+            "slug": "geoffrey-moore",
+            "guest": "Geoffrey Moore",
+            "title": "Geoffrey Moore on Crossing the Chasm",
+            "insights": [
+                {
+                    "type": "Framework",
+                    "topic": "The Chasm",
+                    "content": "The transition from early adopters to the early majority is the most dangerous phase. Success requires a 'beachhead strategy'—dominating one niche before expanding.",
+                    "quotation": "Don't try to boil the ocean. Find the one segment that has a high-pain problem and own it until you are the only solution they consider.",
+                    "stage": "Growth",
+                    "tag": "Market Strategy"
+                }
+            ],
+            "publish_date": "2024-01-25",
+            "youtube_url": "https://www.youtube.com/watch?v=RBbINB5HSHk"
+        },
+        {
+            "slug": "gibson-biddle",
+            "guest": "Gibson Biddle",
+            "title": "Product Strategy and Prioritization",
+            "insights": [
+                {
+                    "type": "Strategy",
+                    "topic": "Frameworks",
+                    "content": "Clear and memorable frameworks help demystify the vagueness of product strategy and prioritization.",
+                    "quotation": "Gibson comes up with such clear and memorable frameworks, which help demystify the vagueness that surround strategy.",
+                    "stage": "Strategy",
+                    "tag": "Frameworks"
+                },
+                {
+                    "type": "Leadership",
+                    "topic": "DHM Model",
+                    "content": "Delight customers in Hard to copy, Margin-enhancing ways. (Implicit knowledge from Gib's famous framework referenced in intro context).",
+                    "quotation": "Written what is almost surely the most popular Medium post on product strategy.",
+                    "stage": "Strategy",
+                    "tag": "DHM"
+                },
+                {
+                    "type": "Framework",
+                    "topic": "DHM Model (Delight, Hard to Copy, Margin)",
+                    "content": "To build a great product, you must simultaneously delight customers, build hard-to-copy advantages (like network effects or tech), and improve business margins.",
+                    "quotation": "The DHM model asks: How will the product delight customers? What will make it hard to copy? And how will it enhance margins?",
+                    "stage": "Strategy",
+                    "tag": "Product Strategy"
+                }
+            ],
+            "publish_date": "2025-06-12",
+            "youtube_url": "https://www.youtube.com/watch?v=X-83gvgVaWc"
+        },
+        {
+            "slug": "gokul-rajaram",
+            "guest": "Gokul Rajaram",
+            "title": "Gokul Rajaram on designing your product development process",
+            "insights": [
+                {
+                    "type": "Career",
+                    "topic": "The Startup Helper",
+                    "content": "Gokul positions himself as a 'startup helper' rather than a luminary, focusing on mentoring and helping founders.",
+                    "quotation": "I've just been lucky to work at good companies... I always just calls himself a startup helper.",
+                    "stage": "Career",
+                    "tag": "Mentorship"
+                },
+                {
+                    "type": "Hiring",
+                    "topic": "Role Selection",
+                    "content": "Early career choices can be serendipitous. He joined Google almost by accident, initially wanting to be a 'hardcore' networking PM at Cisco.",
+                    "quotation": "I joined Google as a PM after I applied to Cisco... I was like, layer seven software is for wimps.",
+                    "stage": "Career",
+                    "tag": "Career Path"
+                },
+                {
+                    "type": "Framework",
+                    "topic": "SPADE Decision Framework",
+                    "content": "A structured approach for high-stakes decisions: Setting (context), People (consulted vs decider), Alternatives (3-5 options), Decide (choose one), and Explain (socialize the 'why').",
+                    "quotation": "SPADE stands for Setting, People, Alternatives, Decide, and Explain. Most people skip the 'Explain' part, which is why the decision fails to stick.",
+                    "stage": "Strategy",
+                    "tag": "Decision Making"
+                }
+            ],
+            "publish_date": "2022-01-01",
+            "youtube_url": "https://www.youtube.com/watch?v=gokul-rajaram"
+        },
+        {
+            "slug": "gustav-soderstrom",
+            "guest": "Gustav Söderström",
+            "title": "The science of product, big bets, and how AI is impacting the future of music | Gustav Söderström",
+            "insights": [
+                {
+                    "type": "Strategy",
+                    "topic": "Generative Era",
+                    "content": "We are moving from Curation -> Recommendation -> Generation. This shift will require rethinking user interfaces and business models.",
+                    "quotation": "We're going from your curation to recommendation to generation... suspect it will be as big of a shift.",
+                    "stage": "Strategy",
+                    "tag": "AI"
+                },
+                {
+                    "type": "Organization",
+                    "topic": "Beyond Squads",
+                    "content": "Spotify has evolved beyond its famous 'Squads' model. Structure must evolve to support the current strategy.",
+                    "quotation": "How Spotify moved away from squads and how they structure their teams now.",
+                    "stage": "Scale",
+                    "tag": "Org Design"
+                },
+                {
+                    "type": "Philosophy",
+                    "topic": "The 70/20/10 Innovation Rule",
+                    "content": "Allocate resources systematically: 70% to core business optimization, 20% to adjacent opportunities, and 10% to high-risk, moonshot experimental bets.",
+                    "quotation": "You have to protect the 10%. If you don't explicitly carve out space for bets that look crazy today, the core business will eventually eat everything through incrementalism.",
+                    "stage": "Strategy",
+                    "tag": "Resource Allocation"
+                }
+            ],
+            "youtube_url": "https://www.youtube.com/watch?v=QtJoYFyrdPI"
+        },
+        {
+            "slug": "hamelshreya",
+            "guest": "Hamel Husain & Shreya Shankar",
+            "title": "The Definitive Guide to Evals",
+            "insights": [
+                {
+                    "type": "Execution",
+                    "topic": "Importance of Evals",
+                    "content": "Building evals is the highest ROI activity for AI products. It's becoming a clearer, necessary skill for PMs.",
+                    "quotation": "To build great AI products, you need to be really good at building evals. It's the highest ROI activity.",
+                    "stage": "Execution",
+                    "tag": "AI"
+                },
+                {
+                    "type": "Product Sense",
+                    "topic": "Benevolent Dictator",
+                    "content": "Don't design evals by committee. Appoint a 'benevolent dictator' with taste (often the PM) to decide what is good.",
+                    "quotation": "A lot of teams get bogged down in having a committee... You can appoint one person whose taste that you trust.",
+                    "stage": "Execution",
+                    "tag": "Decision Making"
+                }
+            ],
+            "publish_date": "2025-09-25",
+            "youtube_url": "https://www.youtube.com/watch?v=BsWxPI9UM4c"
+        },
+        {
+            "slug": "hari-srinivasan",
+            "guest": "Hari Srinivasan",
+            "title": "LinkedIn’s product evolution and the art of building complex systems | Hari Srinivasan (LinkedIn)",
+            "insights": [
+                {
+                    "type": "Strategy",
+                    "topic": "Skills-First Hiring",
+                    "content": "To balance the labor market (especially post-COVID), LinkedIn pushed for 'skills-first hiring' rather than relying on titles alone.",
+                    "quotation": "Translation people's experiences into a set of skills... we could help them really start balancing the marketplace.",
+                    "stage": "Strategy",
+                    "tag": "Marketplace"
+                },
+                {
+                    "type": "Scale",
+                    "topic": "Complex Ecosystems",
+                    "content": "Building for a massive, multi-sided ecosystem like LinkedIn requires balancing the needs of very different customer types.",
+                    "quotation": "Building products that serve so many different types of customers.",
+                    "stage": "Scale",
+                    "tag": "Ecosystem"
+                },
+                {
+                    "type": "Leadership",
+                    "topic": "Mission-Aligned Autonomy",
+                    "content": "Scale requires moving from 'command and control' to 'commander's intent'. Provide the objective and the boundaries, trust the team to find the path.",
+                    "quotation": "Autonomy only works if everyone is clear on the Mission. If the mission is blurry, autonomy just leads to chaos across the organization.",
+                    "stage": "Scale",
+                    "tag": "Org Design"
+                }
+            ],
+            "publish_date": "2023-07-16",
+            "youtube_url": "https://www.youtube.com/watch?v=ZUwkTs_QWqg"
+        },
+        {
+            "slug": "hila-qu",
+            "guest": "Hila Qu",
+            "title": "Hila Qu on Growth Hacks and Scaling GitLab",
+            "insights": [
+                {
+                    "type": "Growth",
+                    "topic": "The Growth OS",
+                    "content": "Growth is not a series of hacks; it is an operating system. Systematize: 1) Ideation, 2) Prioritization (ICE), 3) Testing, 4) Analysis, 5) Knowledge Sharing.",
+                    "quotation": "One hack won't save you. A system of 100 small experiments will. Velocity is the only unfair advantage in growth.",
+                    "stage": "Growth",
+                    "tag": "Growth Engine"
+                }
+            ],
+            "publish_date": "2023-04-02",
+            "youtube_url": "https://www.youtube.com/watch?v=7l1fIxk7SnA"
+        },
+        {
+            "slug": "hilary-gridley",
+            "guest": "Hilary Gridley",
+            "title": "How to build a team that can “take a punch” | Hilary Gridley (Head of Core Product, Whoop)",
+            "insights": [
+                {
+                    "type": "Leadership",
+                    "topic": "Counter-Programming",
+                    "content": "When a team member is anxious about perception, focus on action: What can they do to 'counter-program' the narrative?",
+                    "quotation": "What is the action that you can take to counter program the narrative that you are afraid that this other person has of you?",
+                    "stage": "Leadership",
+                    "tag": "Resilience"
+                },
+                {
+                    "type": "Mindset",
+                    "topic": "Protagonist Syndrome",
+                    "content": "You are not the protagonist in the story of work. Realizing this helps you collaborate better and disagree without taking it personally.",
+                    "quotation": "You come up thinking like you're the protagonist. But in the story of work, you are probably not the protagonist.",
+                    "stage": "Culture",
+                    "tag": "Ego"
+                }
+            ],
+            "publish_date": "2025-06-15",
+            "youtube_url": "https://www.youtube.com/watch?v=xm5QAzAlqEY"
+        },
+        {
+            "slug": "howie-liu",
+            "guest": "Howie Liu",
+            "title": "How we restructured Airtable's entire org for AI",
+            "insights": [
+                {
+                    "type": "Strategy",
+                    "topic": "Restructuring for AI",
+                    "content": "Airtable completely restructured its organization to prioritize AI, realizing it wasn't just a feature but a platform shift.",
+                    "quotation": "We realized AI wasn't just a feature... required a completely different organizational structure.",
+                    "stage": "Strategy",
+                    "tag": "AI"
+                },
+                {
+                    "type": "Leadership",
+                    "topic": "Founder Mode",
+                    "content": "Howie emphasizes the importance of founders staying deep in the product, even at scale (similar to 'Founder Mode').",
+                    "quotation": "You have to stay deep in the product... you can't delegate taste.",
+                    "stage": "Leadership",
+                    "tag": "Founder Mode"
+                },
+                {
+                    "type": "Concept",
+                    "topic": "The Horizontal App Platform",
+                    "content": "When building a horizontal tool, focus on low-level primitives (like rows and views) that allow users to assemble their own bespoke solutions for infinite use cases.",
+                    "quotation": "We didn't build a project management tool. We built the legos that let you build a project management tool, or a CRM, or anything else you need.",
+                    "stage": "Design",
+                    "tag": "Product Vision"
+                }
+            ],
+            "publish_date": "2025-08-31",
+            "youtube_url": "https://www.youtube.com/watch?v=GT0jtVjRy2E"
+        },
+        {
+            "slug": "ian-mcallister",
+            "guest": "Ian McAllister",
+            "title": "What it takes to become a top 1% PM",
+            "insights": [
+                {
+                    "type": "Career",
+                    "topic": "Top 1% PMs",
+                    "content": "Top 1% PMs don't just ship features; they deliver business impact and can distinguish between output and outcome.",
+                    "quotation": "If you forget about politics... simply wake up every day trying to have the biggest impact you can.",
+                    "stage": "Career",
+                    "tag": "Impact"
+                },
+                {
+                    "type": "Framework",
+                    "topic": "Working Backwards",
+                    "content": "The Amazon Working Backwards process (PR/FAQ) forces clarity of thought before writing code. It's a low-cost way to iterate.",
+                    "quotation": "Writing a press release forces you to clarify what is the benefit to the customer.",
+                    "stage": "Discovery",
+                    "tag": "PR/FAQ"
+                },
+                {
+                    "type": "Framework",
+                    "topic": "Working Backwards (PR/FAQ)",
+                    "content": "Write the press release and FAQ for a product before building it. This forces the team to envision the customer benefit and solve the hardest problems upfront.",
+                    "quotation": "The PR/FAQ is a tool for clarity. If you can't write a press release that sounds exciting to a customer, you shouldn't be building the product.",
+                    "stage": "Discovery",
+                    "tag": "Product Discovery"
+                }
+            ],
+            "publish_date": "2022-11-20",
+            "youtube_url": "https://www.youtube.com/watch?v=7gaPPrAd7nc"
+        },
+        {
+            "slug": "inbal-shani",
+            "guest": "Inbal Shani",
+            "title": "The future of AI in software development",
+            "insights": [
+                {
+                    "type": "Technology",
+                    "topic": "AI and Junior Devs",
+                    "content": "AI allows junior devs to focus on system understanding rather than syntax, effectively accelerating their seniority.",
+                    "quotation": "They can spend more time from the get-go understanding the system... which today they don't have time because they're still learning how to code.",
+                    "stage": "Execution",
+                    "tag": "AI"
+                },
+                {
+                    "type": "Metrics",
+                    "topic": "Copilot Metrics",
+                    "content": "GitHub looks at acceptance rate (30-50%) and 'happiness' as key metrics for Copilot success, not just lines of code.",
+                    "quotation": "We look at acceptance rate... but also developer happiness.",
+                    "stage": "Metrics",
+                    "tag": "DevEx"
+                }
+            ],
+            "youtube_url": "https://www.youtube.com/watch?v=f10s3rxKaJw"
+        },
+        {
+            "slug": "jackie-bavaro",
+            "guest": "Jackie Bavaro",
+            "title": "Bending the universe in your favor",
+            "insights": [
+                {
+                    "type": "Strategy",
+                    "topic": "Strategy Definition",
+                    "content": "Strategy is not a plan; it's a framework for decision-making. It helps you say 'no' to good ideas that don't fit the goal.",
+                    "quotation": "Strategy is a framework for making decisions... it helps you say no to good ideas.",
+                    "stage": "Strategy",
+                    "tag": "Framework"
+                },
+                {
+                    "type": "Career",
+                    "topic": "Seniority",
+                    "content": "Moving from Senior to Principal PM requires shifting from 'solving assigned problems' to 'finding the right problems to solve'.",
+                    "quotation": "The shift is from solving assigned problems to finding the right problems to solve.",
+                    "stage": "Career",
+                    "tag": "Growth"
+                },
+                {
+                    "type": "Definition",
+                    "topic": "The 'Product Sense' Metric",
+                    "content": "Product sense is not an innate gift; it's the muscle of empathy for the user combined with a deep understanding of business constraints. It can be trained through observation.",
+                    "quotation": "Product sense is just the ability to predict what will solve a user's problem before they tell you. It's about spotting patterns other people miss.",
+                    "stage": "Cross-Cutting",
+                    "tag": "Career"
+                },
+                {
+                    "type": "Framework",
+                    "topic": "The Design Question Loop",
+                    "content": "When asked to design a product, always start with: 1) Who are the users? 2) What is their pain? 3) Prioritize the pain. 4) Brainstorm 10x solutions. 5) Define success metrics.",
+                    "quotation": "Don't jump to the solution. If you don't spend half the time on the user and their pain points, you've already failed the design interview.",
+                    "stage": "Discovery",
+                    "tag": "Interviewing"
+                }
+            ],
+            "publish_date": "2024-04-07",
+            "youtube_url": "https://www.youtube.com/watch?v=aXGo1o_baBo"
+        },
+        {
+            "slug": "jackson-shuttleworth",
+            "guest": "Jackson Shuttleworth",
+            "title": "Behind the product: Duolingo streaks | Jackson Shuttleworth (Group PM, Retention Team)",
+            "insights": [
+                {
+                    "type": "Framework",
+                    "topic": "The 23.5-Hour Practice Reminder",
+                    "content": "The most effective practice reminder is sent exactly 23.5 hours after the user's last activity, leveraging 'revealed behavior' over 'stated goals' to catch users at their most likely free time.",
+                    "quotation": "What we realize is the best indicator of when you should practice was when did you practice the day before... What always wins is 23 and a half hours.",
+                    "stage": "Growth",
+                    "tag": "Retention"
+                },
+                {
+                    "type": "Concept",
+                    "topic": "Streak Sanctity vs. Flexibility",
+                    "content": "Layer engagement hacks like 'Streak Freeze' to prevent burnout, but protect the 'sanctity' of the core habit by celebrating perfection (e.g., gold status for unused freezes).",
+                    "quotation": "Antonia... is the keeper for us of the sanctity of the streak... There's a point where you go too far and it's a one-way door, and all of a sudden those users... don't care about their streak anymore.",
+                    "stage": "Optimization",
+                    "tag": "Gamification"
+                },
+                {
+                    "type": "Strategy",
+                    "topic": "Zero to Seven Day Lock-in",
+                    "content": "Loss aversion peak occurs at day 7. Focus 90% of onboarding effort on getting users to a 7-day streak to achieve long-term retention persistence.",
+                    "quotation": "Once you hit day seven, it flans out... We do a ton of work to get users to that point where loss aversion kicks in, and then they don't want to lead the app.",
+                    "stage": "Growth",
+                    "tag": "Activation"
+                },
+                {
+                    "type": "Advice",
+                    "topic": "Copy Testing as a Growth Lever",
+                    "content": "Treat copy as a high-ROI, low-cost experiment. Simple changes (e.g., 'Continue' to 'Commit to my goal') can shift DAUs by orders of magnitude.",
+                    "quotation": "I'm of the opinion that companies should run... copy test constantly... Little copy changes... led to huge wins.",
+                    "stage": "Optimization",
+                    "tag": "Growth"
+                },
+                {
+                    "type": "Philosophy",
+                    "topic": "Core Loop Priority",
+                    "content": "Engagement hacks like streaks only work on top of a product that provides genuine value. Never prioritize gamification over the core utility (learning).",
+                    "quotation": "Streaks work best when they're sitting on top of an app that users care about... If you don't come back to Duolingo, then you're not learning.",
+                    "stage": "Strategy",
+                    "tag": "Product Value"
+                },
+                {
+                    "type": "Framework",
+                    "topic": "Intentionality Over Pre-selection",
+                    "content": "Letting users explicitly pick their own streak goals (e.g., 14 days vs 30 days) drives more commitment than automatically pre-selecting a 'recommended' plan.",
+                    "quotation": "That act of selecting, I think it's 30 days, I think it's 14 days, was where we were getting so much of the engagement from this feature.",
+                    "stage": "Growth",
+                    "tag": "User Choice"
+                },
+                {
+                    "type": "Tactics",
+                    "topic": "The 10 PM Streak Saver",
+                    "content": "Late-night notifications ('last chance to save your streak') are perceived as high-value service rather than spam because they align with the user's emotional investment in their streak.",
+                    "quotation": "At 10:00 at night... we'll send it to you... People see this by and large as a positive notification and not a negative notification.",
+                    "stage": "Growth",
+                    "tag": "Engagement"
+                },
+                {
+                    "type": "Soft Skills",
+                    "topic": "The 'Test It' Culture",
+                    "content": "Avoid prolonged debates in conference rooms; test hypotheses quickly with minimum viable versions to get real-world data and iterate.",
+                    "quotation": "We'd much rather test it than debate it for days and days... Resist the urge to do the big V1... get confidence at each step of the way.",
+                    "stage": "Cross-Cutting",
+                    "tag": "Process"
+                }
+            ],
+            "publish_date": "2024-12-15",
+            "youtube_url": "https://www.youtube.com/watch?v=_CCwoQZH5hI"
+        },
+        {
+            "slug": "janna-bastow",
+            "guest": "Janna Bastow",
+            "title": "Janna Bastow on the history and future of product roadmaps",
+            "insights": [
+                {
+                    "type": "Framework",
+                    "topic": "Now-Next-Later Roadmap",
+                    "content": "A outcome-based roadmap that ditches dates for horizons: Now (high confidence, active), Next (medium confidence, discovery), and Later (low confidence, vision/backlog).",
+                    "quotation": "Roadmaps shouldn't be Gantt charts. They should be a prototype for your strategy... focusing on outcomes, not items on a timeline.",
+                    "stage": "Strategy",
+                    "tag": "Roadmapping"
+                }
+            ],
+            "publish_date": "2022-10-16",
+            "youtube_url": "https://www.youtube.com/watch?v=W3cvqPCGcck"
+        },
+        {
+            "slug": "jason-fried",
+            "guest": "Jason Fried",
+            "title": "Jason Fried on Shape Up and Async Work at 37signals",
+            "insights": [
+                {
+                    "type": "Framework",
+                    "topic": "Shape Up",
+                    "content": "Ditch sprints for 6-week cycles with fixed time and variable scope. PMs 'shape' the work with boundaries and appetites, then hand off to teams for autonomous execution.",
+                    "quotation": "Estimation is a lie. Instead, decide how much time you're willing to spend on a problem. That's your appetite. Build the best thing possible within that box.",
+                    "stage": "Execution",
+                    "tag": "Productivity"
+                }
+            ],
+            "publish_date": "2023-12-17",
+            "youtube_url": "https://www.youtube.com/watch?v=dAnF0tk0di8"
+        },
+        {
+            "slug": "jason-shah",
+            "guest": "Jason Shah",
+            "title": "Jason Shah on meeting rituals and velocity",
+            "insights": [
+                {
+                    "type": "Leadership",
+                    "topic": "The Pre-Read Ritual",
+                    "content": "To increase decision velocity, ban presentations in meetings. Require a pre-read doc that is read in silence for the first 10 minutes, followed by pure Q&A.",
+                    "quotation": "If you're spending 30 minutes presenting a deck, you're wasting everyone's time. Read in silence, then discuss the hard stuff.",
+                    "stage": "Optimization",
+                    "tag": "Productivity"
+                }
+            ],
+            "publish_date": "2022-09-18",
+            "youtube_url": "https://www.youtube.com/watch?v=nMsA5VeLoOM"
+        },
+        {
+            "slug": "john-cutler",
+            "guest": "John Cutler",
+            "title": "John Cutler on the messy middle and T-shaped PMs",
+            "insights": [
+                {
+                    "type": "Philosophy",
+                    "topic": "The Messy Middle",
+                    "content": "Most product organizations fail in the middle—between vision and execution. Success requires bridge-builders who can translate high-level goals into tactical constraints.",
+                    "quotation": "Everybody's great at the vision, and everybody's great at the Jira ticket. The disaster happens in the messy middle where we try to connect the two.",
+                    "stage": "Cross-Cutting",
+                    "tag": "Org Design"
+                }
+            ],
+            "publish_date": "2023-01-15",
+            "youtube_url": "https://www.youtube.com/watch?v=Y4PdUItyXUk"
+        },
+        {
+            "slug": "john-mark-nickels",
+            "guest": "John Mark Nickels",
+            "title": "Conscious leadership: Unlocking vision, strategy and purpose | JM Nickels (Uber, Waymo, DoorDash)",
+            "insights": [
+                {
+                    "type": "Framework",
+                    "topic": "Conscious Leadership",
+                    "content": "Leadership is simply having influence in the world. Conscious leadership is taking radical responsibility for that influence by becoming aware of your internal world, biases, and inherited belief systems.",
+                    "quotation": "Leadership is broadly defined as having influence in the world... Conscious leadership is taking responsibility for my influence in the world.",
+                    "stage": "Cross-Cutting",
+                    "tag": "Leadership"
+                },
+                {
+                    "type": "Soft Skills",
+                    "topic": "The Power of Sitting Back",
+                    "content": "As you become more senior, your voice carries disproportionate weight. Effective leadership involves sitting back, creating space for others to speak first, and resisting the urge to 'win' the argument in the room.",
+                    "quotation": "I don't need to win the argument in the meeting... I really try to spend more time being mindful of that and say, I want to hear from other people first.",
+                    "stage": "Cross-Cutting",
+                    "tag": "Influence"
+                },
+                {
+                    "type": "Philosophy",
+                    "topic": "Objective Function for Life",
+                    "content": "Treat your life choices with the same rigor as product strategy. Define your long-term 'objective function' (e.g., family relationships) and refuse to sacrifice it for short-term 'optics' or marginal improvements in work output.",
+                    "quotation": "Get clear on your objective function... five years from now, I'm not going to give a shit if I made the presentation slightly better, but I'm going to care a lot about what kind of relationship I have with my daughters.",
+                    "stage": "Cross-Cutting",
+                    "tag": "Prioritization"
+                },
+                {
+                    "type": "Strategy",
+                    "topic": "Strategic Visualization",
+                    "content": "To develop breakthrough strategy, decouple from daily tasks and close your eyes to visualize the future 5-10 years out. Paint a salient picture of the world independently of your company first, then decide how to influence it.",
+                    "quotation": "Close your eyes and imagine the future as far out as I can... Develop a really salient picture of what that looks like... then how might we influence the outcome?",
+                    "stage": "Strategy",
+                    "tag": "Vision"
+                },
+                {
+                    "type": "Framework",
+                    "topic": "The Wisdom of Emotions",
+                    "content": "Emotions are data signals. Fear signals what needs attention; sadness signals what needs letting go; anger signals what is not of service; and joy signals what to celebrate.",
+                    "quotation": "There's wisdom in emotion... Fear is something wants to be paid attention to. Sadness for me is something wants to be let go of. Anger to me is something is not of service.",
+                    "stage": "Cross-Cutting",
+                    "tag": "EQ"
+                },
+                {
+                    "type": "Advice",
+                    "topic": "Agent vs. Victim Consciousness",
+                    "content": "Stop living 'at the effect' of circumstances. True empowerment comes from taking 100% responsibility for how you relate to the world, even in situations where you have no control over the inputs.",
+                    "quotation": "Shifting from [victim consciousness] to a state of I am willing to take responsibility for how I see the world... I'm the painter of my existence.",
+                    "stage": "Cross-Cutting",
+                    "tag": "Growth Mindset"
+                }
+            ],
+            "publish_date": "2024-10-06",
+            "youtube_url": "https://www.youtube.com/watch?v=W7o40qcYHlM"
+        },
+        {
+            "slug": "josh-miller",
+            "guest": "Josh Miller",
+            "title": "Competing with giants: An inside look at how The Browser Company builds product | Josh Miller (CEO)",
+            "insights": [
+                {
+                    "type": "Framework",
+                    "topic": "The D5/D7 Metric",
+                    "content": "Obsess over a single metric that captures retention, engagement, and growth simultaneously: How many users turn to the product at least 5 days a week? This is hard to game and forces a focus on deep habitual value.",
+                    "quotation": "We really focus on one key metric... how many people turn to Arc at least five days a week? ... it captures retention, engagement, and growth in a single metric. You can't game it.",
+                    "stage": "Growth",
+                    "tag": "Metrics"
+                },
+                {
+                    "type": "Philosophy",
+                    "topic": "Optimizing for Feelings",
+                    "content": "Look beyond graphs and metrics to define how you want to make the user feel (e.g., joy, fast, focused). At the moment of creation, the human emotional outcome is a better guide than quantitative data.",
+                    "quotation": "Optimizing for metrics leaves a lot on the table... we talk about optimizing feelings. How do we want to make someone feel on the other end of our software?",
+                    "stage": "Strategic Planning",
+                    "tag": "Product Craft"
+                },
+                {
+                    "type": "Concept",
+                    "topic": "Heartfelt Intensity",
+                    "content": "Hire for internal fire and purpose over specific craft skills. A team with 'heartfelt intensity' and something to prove will perform remarkable work when given an ambitious prompt and clear path.",
+                    "quotation": "We want people that show up to our company with some fire in their belly... If you have a team that has heartfelt intensity and is there for a purpose... get out of their way and they will do remarkable work.",
+                    "stage": "Cross-Cutting",
+                    "tag": "Hiring"
+                },
+                {
+                    "type": "Strategy",
+                    "topic": "Radical Trust through Transparency",
+                    "content": "In a low-trust tech landscape, use 'building in public' (sharing meetings/backstage) as an experiment in radical trust. Letting users see your imperfections builds a human connection that policies alone cannot.",
+                    "quotation": "Culturally, we have lost trust in tech companies... building in public showing you our meetings, uncomfortably so, is an act in, 'If we were them, why should they trust us?'",
+                    "stage": "Strategy",
+                    "tag": "Marketing"
+                },
+                {
+                    "type": "Approach",
+                    "topic": "Assume You Don't Know",
+                    "content": "Adopt a beginner's mind regardless of expertise. This ethos biases the team toward action ('getting going') to see what happens rather than getting stuck in analysis or dogma.",
+                    "quotation": "Our second value is assume you don't know... even if you're a subject matter expert... we've just got to get going and see what we find.",
+                    "stage": "Execution",
+                    "tag": "Culture"
+                },
+                {
+                    "type": "Vision",
+                    "topic": "The Internet Computer",
+                    "content": "As applications and files move entirely to the cloud, the browser evolves from an 'app' to the primary operating system or 'internet computer.' The hardware becomes a mere vessel for the real work happening in the cloud.",
+                    "quotation": "Hardware is commoditizing... They're becoming empty shells... our real computer, which is out there on the internet somewhere... we want Arc to be the iPhone for the internet.",
+                    "stage": "Strategy",
+                    "tag": "Future of Tech"
+                },
+                {
+                    "type": "Advice",
+                    "topic": "Rhetorical Naming",
+                    "content": "Give teams and features non-traditional names (e.g., 'Membership' instead of 'Support') to shed preconceived notions and force the team to think from first principles about the human relationship.",
+                    "quotation": "When you give something a new name, it sheds a lot of preconceived notions... It's meant to almost be a rhetorical tactic, to make people think truly first principles.",
+                    "stage": "Organization",
+                    "tag": "Management"
+                }
+            ],
+            "publish_date": "2023-03-19",
+            "youtube_url": "https://www.youtube.com/watch?v=AZpo5785v8A"
+        },
+        {
+            "slug": "judd-antin",
+            "guest": "Judd Antin",
+            "title": "The UX Research reckoning is here | Judd Antin (Airbnb, Meta)",
+            "insights": [
+                {
+                    "type": "Framework",
+                    "topic": "The Macro/Middle/Micro Research Levels",
+                    "content": "Categorize research into three altitudes: Macro (big picture strategy), Micro (usability and fast iteration), and Middle Range (broad user understanding). The 'reckoning' occurs when teams spend too much time in the 'middle range'—finding interesting but non-actionable insights—instead of driving strategy or polishing the product.",
+                    "quotation": "Middle range research is... this devastating mix of really interesting to many... and not impactful enough for the business. ... We're just doing too much of what I would consider the wrong type of research.",
+                    "stage": "Execution",
+                    "tag": "User Research"
+                },
+                {
+                    "type": "Concept",
+                    "topic": "User-Centered Performance",
+                    "content": "Avoid 'performative' user-centeredness, where symbolic acts (like a validation study at the end of a project) are done to check a box rather than to genuinely learn or change a decision. If you aren't willing to be wrong, you aren't doing research.",
+                    "quotation": "User-centered performance refers to customer obsession... that is symbolic rather than focused on learning. ... It's too late to matter. ... They do not want to be wrong.",
+                    "stage": "Philosophy",
+                    "tag": "Product Culture"
+                },
+                {
+                    "type": "Strategy",
+                    "topic": "The Falsification Mindset",
+                    "content": "A product team's goal should be to falsify their assumptions, not validate them. Actively looking for where you are wrong is the only way to evolve the product beyond the limitations of founder/PM intuition.",
+                    "quotation": "One of my big mantras was, 'We don't validate, we falsify. We are looking to be wrong.' ... Intuition is where all your blind spots are.",
+                    "stage": "Strategic Planning",
+                    "tag": "Decision Making"
+                },
+                {
+                    "type": "Framework",
+                    "topic": "The 5-Tool Researcher",
+                    "content": "Hire and develop researchers with a 'Swiss Army Knife' of skills: (1) Formative/Generative (innovation), (2) Evaluative (usability), (3) Survey Design, (4) Applied Statistics, and (5) Technical/AI (SQL, Prompt Engineering).",
+                    "quotation": "I want a researcher who's got a Swiss army knife... The best researchers have five tools... [including] basic rigorous survey design [and] applied statistics.",
+                    "stage": "Cross-Cutting",
+                    "tag": "Hiring"
+                },
+                {
+                    "type": "Advice",
+                    "topic": "Stop Siloing Insights",
+                    "content": "Integrate qualitative and quantitative insights into a single function. Siloed departments (UXR, Data Science, Support) often throw conflicting data points at PMs, making decision-making more difficult rather than clearer.",
+                    "quotation": "Creating silos is stupid. ... Integrate UX research, talk about market and competitors, integrate smartly with data science... fuel this one insights machine.",
+                    "stage": "Organization",
+                    "tag": "Operational Excellence"
+                },
+                {
+                    "type": "Philosophy",
+                    "topic": "Relationship as the North Star",
+                    "content": "The ultimate metric for research value isn't a report or an OKR, but the relationship with partners. Value is achieved when the product team considers the insights partner essential to the decision-making process.",
+                    "quotation": "My metric for success is when they won't have that meeting without you. ... If they cannot have that decision-making meeting without the researcher there, that means you've developed influence.",
+                    "stage": "Execution",
+                    "tag": "Collaboration"
+                },
+                {
+                    "type": "Concept",
+                    "topic": "The Dogfooding Trap",
+                    "content": "While dogfooding is useful for finding bugs, you must realize you are nothing like your user. You lack the real-world constraints, contexts, and priorities that define customer behavior, making purely intuitive dogfooding dangerous.",
+                    "quotation": "The problem is related to relying on your intuition... you are nothing like the user. ... Some problems with a product you need a pulse to recognize... but context of use, priorities, constraints you just don't have.",
+                    "stage": "Execution",
+                    "tag": "Product Craft"
+                }
+            ],
+            "publish_date": "2024-01-04",
+            "youtube_url": "https://www.youtube.com/watch?v=L6RKi9ZvkT4"
+        },
+        {
+            "slug": "jules-walter",
+            "guest": "Jules Walter",
+            "title": "Leveraging mentors to uplevel your career | Jules Walter (YouTube, Slack)",
+            "insights": [
+                {
+                    "type": "Concept",
+                    "topic": "PM Skill Buckets (IQ vs. EQ)",
+                    "content": "PM skills fall into two buckets: IQ (hard skills like execution, product sense, strategy, interviewing) and EQ (soft skills like communication, leadership, management). Career progression shifts focus from IQ early on to EQ in senior roles.",
+                    "quotation": "In terms of skills, I think of it in terms of two buckets. One are IQ skills... intellectual skills... And then the other things are the EQ skills... soft skills.",
+                    "stage": "Cross-Cutting",
+                    "tag": "Career Growth"
+                },
+                {
+                    "type": "Advice",
+                    "topic": "Interviewing as a Career Catalyst",
+                    "content": "Interviewing is a distinct skill that determines access to top-tier companies. It requires deliberate practice—dozens of mock interviews—especially for underrepresented groups who face additional psychological pressure and bias.",
+                    "quotation": "The other skill that I'll also call out, which nobody talks about for some reason, is interview skills... getting into Slack changed my trajectory and I was able to do that because I got slightly somewhat good enough at interviewing.",
+                    "stage": "Cross-Cutting",
+                    "tag": "Career Growth"
+                },
+                {
+                    "type": "Framework",
+                    "topic": "Forcing Functions for Skill Acquisition",
+                    "content": "To learn a new skill, set a concrete outcome or goal (e.g., 'drive activation by X% in 6 months'). This forces you to work backwards, identify key questions, and seek specific mentorship to solve the problem.",
+                    "quotation": "What I do specifically is when I'm trying to learn something new, I try to think about what is an outcome that I could drive... Then once I have this outcome, I work backwards to figure out how am I going to do that.",
+                    "stage": "Strategy",
+                    "tag": "Learning"
+                },
+                {
+                    "type": "Approach",
+                    "topic": "Reverse Engineering Best Practices",
+                    "content": "Study the 'backstage' of product management by analyzing excellent artifacts (docs, decks) from peers. Don't just look at the final product; ask to see early drafts and feedback rounds to understand the iterative process.",
+                    "quotation": "Identify what's the best practice for something... I get these artifacts and I reverse engineering them... It's not about the format, but what is it about? ...seeing the backstage is also really helpful.",
+                    "stage": "Strategy",
+                    "tag": "Product Craft"
+                },
+                {
+                    "type": "Tactics",
+                    "topic": "The 'Small Ask' Mentorship Strategy",
+                    "content": "Find mentors by making the smallest ask possible—a specific, 2-minute email question rather than a 'coffee chat.' Build trust by circling back later to show how you applied their advice and describing the impact.",
+                    "quotation": "You should make the smallest ask possible... something he could answer in literally two minutes via email... the key is to circle back with them at a later point and show that you've actually made good use of the advice.",
+                    "stage": "Cross-Cutting",
+                    "tag": "Mentorship"
+                },
+                {
+                    "type": "Soft Skills",
+                    "topic": "The 'Shadow Side' of Strengths",
+                    "content": "Strengths and weaknesses are often two sides of the same coin (a 'dial'). For example, curiosity leads to great questions, but when asked bluntly, they can seem junior. Identifying these 'shadow sides' through honest mentorship is critical for EQ development.",
+                    "quotation": "Strengthen and weakness, it's not a binary thing. It's like the same thing, but it's a dial... that's the connection between your strength and weaknesses.",
+                    "stage": "Cross-Cutting",
+                    "tag": "EQ"
+                },
+                {
+                    "type": "Advice",
+                    "topic": "Low-Friction Feedback Culture",
+                    "content": "To get honest feedback on soft skills (EQ), you must make the giver feel safe and rewarded. Respond with 'enthusiastic gratitude' even when the feedback is hard to hear, ensuring they feel comfortable taking the risk to be honest again.",
+                    "quotation": "Your answer has to be enthusiastically grateful... because people are like, 'Oh, he actually likes the feedback.' ...And if you get more feedback, then you'll just get better at the things.",
+                    "stage": "Cross-Cutting",
+                    "tag": "Leadership"
+                },
+                {
+                    "type": "Soft Skills",
+                    "topic": "Three Levels of Listening",
+                    "content": "Senior leadership requires moving beyond 'seeking information to solve a problem' to 'creating space for others' and 'helping them feel heard.' This deeper level of listening builds influence that transactional interaction cannot.",
+                    "quotation": "I'm good at seeking information to solve a problem... However, there's also different listening patterns, one of which is you just create space for someone... help that person feel heard.",
+                    "stage": "Cross-Cutting",
+                    "tag": "Communication"
+                }
+            ],
+            "publish_date": "2023-01-05",
+            "youtube_url": "https://www.youtube.com/watch?v=zn2JNbZwf00"
+        },
+        {
+            "slug": "julia-schottenstein",
+            "guest": "Julia Schottenstein",
+            "title": "M&A, competition, pricing, and investing | Julia Schottenstein (dbt Labs)",
+            "insights": [
+                {
+                    "type": "Strategy",
+                    "topic": "M&A as Optionality (Creating Plan Bs)",
+                    "content": "M&A is about creating optionality. Identify 2-3 strategic buyers and 'inflict pain' by demonstrating competitive advantage, but maintain friendly open doors. Don't shut down conversations prematurely even if taking a competitive stance.",
+                    "quotation": "M&A is always about creating plan Bs... figure out the area that you bring a competitive advantage. And I would inflict pain on that potential buyer. Make it impossible for them to not notice you.",
+                    "stage": "Cross-Cutting",
+                    "tag": "Strategy"
+                },
+                {
+                    "type": "Concept",
+                    "topic": "The 4 Pillars of Startup Evaluation",
+                    "content": "When evaluating or joining a startup, look at four dimensions: People (Founder range/scale), Market (Growth/Chaos), Product (User enthusiasm/spark), and Distribution (Unfair advantage/Ecosystem).",
+                    "quotation": "There are four things that I care about when I'm looking at really early stage companies and it's people, market, product and distribution.",
+                    "stage": "Cross-Cutting",
+                    "tag": "Career Growth"
+                },
+                {
+                    "type": "Concept",
+                    "topic": "The 'Spark' of Product-Market Fit",
+                    "content": "A key sign of PMF is a 'spark' where users can't stop talking about the product and share it with their network because it becomes part of their identity rather than just a tool.",
+                    "quotation": "It was much more of an identity for them than just a tool that they were using to get their job done. And that really struck me... they want to share it with their teammates or to other people at different companies.",
+                    "stage": "Product-Market Fit",
+                    "tag": "PMF"
+                },
+                {
+                    "type": "Strategy",
+                    "topic": "Open Core Strategy (Standards vs. Proprietary)",
+                    "content": "Open source the core 'standard' (business logic) to reduce adoption friction and build an ecosystem. Use proprietary software to supercharge the experience, handling state, cross-team collaboration, and productionization at scale.",
+                    "quotation": "dbt open source... it's really the guts of the data transformation. And then on the cloud side we build proprietary software that supercharges the development life cycle... what moves the needle for them.",
+                    "stage": "Scale",
+                    "tag": "Product Strategy"
+                },
+                {
+                    "type": "Tactics",
+                    "topic": "Pricing: Value Creation > Value Capture",
+                    "content": "Have pricing conversations before building. Focus on value creation rather than value capture. Anchor pricing to relative value (e.g., a percentage of the value of the primary platform used, like a cloud warehouse).",
+                    "quotation": "We are more concerned with value creation than value capture... it's much better to have that conversation before you build the product than have it when your sales team's trying to sell something.",
+                    "stage": "Monetization",
+                    "tag": "Pricing"
+                },
+                {
+                    "type": "Principles",
+                    "topic": "Worse is Better & Tech Debt",
+                    "content": "Prioritize shipping 'good enough' products to learn from users quickly. Tech debt is a 'champagne problem'—it implies users are actually using the product. Naive launch solutions are often preferable to over-engineered delays.",
+                    "quotation": "Worse is better and tech debt is a champagne problem... let's ship, let's get it out into the user's hands and then we'll learn and iterate.",
+                    "stage": "Product-Market Fit",
+                    "tag": "Execution"
+                },
+                {
+                    "type": "Soft Skills",
+                    "topic": "The T-Shaped PM Generalist",
+                    "content": "Successful PMs often act as T-shaped generalists with a broad base in finance, business, and tech. Invest in an outside network of operators at similar-stage companies to swap best practices and refine judgment.",
+                    "quotation": "I spend a lot of time investing in my network and I think it's an underrated way for a PM to spend their time... build a network of operators at other companies.",
+                    "stage": "Cross-Cutting",
+                    "tag": "Career Growth"
+                },
+                {
+                    "type": "Principles",
+                    "topic": "Venture Mindset in Product Betting",
+                    "content": "Apply power-law thinking to product bets. While 50% failure is too high for product, you should still make bold bets that have the potential to bend the trajectory of the business.",
+                    "quotation": "In investing, you're constantly thinking about risk and the power laws... in product, you still have to do the same thing... make bets for the company that has the chance of bending the trajectory of our business.",
+                    "stage": "Strategy",
+                    "tag": "Risk Management"
+                }
+            ],
+            "publish_date": "2023-07-13",
+            "youtube_url": "https://www.youtube.com/watch?v=y9hmrMBRPDI"
+        },
+        {
+            "slug": "julie-zhuo",
+            "guest": "Julie Zhuo",
+            "title": "From managing people to managing AI",
+            "insights": [
+                {
+                    "type": "Leadership",
+                    "topic": "Managing AI",
+                    "content": "The role of a manager is evolving from managing people to 'assembling the Avengers' of AI models and tools to get things done.",
+                    "quotation": "It used to be people, but now it's basically models... You have to assemble the Avengers so that you can use the right tools.",
+                    "stage": "Execution",
+                    "tag": "AI"
+                },
+                {
+                    "type": "Product Sense",
+                    "topic": "Data vs Design",
+                    "content": "Use data to diagnose the problem, but use design (intuition/solutioning) to treat it. Data rarely tells you exactly what to build.",
+                    "quotation": "You want to diagnose with data and treat with design.",
+                    "stage": "Discovery",
+                    "tag": "Data"
+                },
+                {
+                    "type": "Leadership",
+                    "topic": "The 'Is it Good?' Test",
+                    "content": "Metrics can be gamed. To avoid this, always pair a quantitative metric with a qualitative 'is it actually better for the user?' check to ensure healthy growth.",
+                    "quotation": "Your dashboard should tell you what's happening, but your gut should tell you if it's actually good. If the metrics are up but the user experience is worse, you're losing.",
+                    "stage": "Growth",
+                    "tag": "Metrics"
+                },
+                {
+                    "type": "Soft Skills",
+                    "topic": "The Manager's Output",
+                    "content": "The output of a manager is the output of their team. Shift from 'my work' to 'our work' and focus on coaching, alignment, and resourcing.",
+                    "quotation": "As a manager, you stop being the best player on the court and start being the coach on the sidelines. Your success is reflected in their wins.",
+                    "stage": "Cross-Cutting",
+                    "tag": "Career"
+                }
+            ],
+            "publish_date": "2025-09-21",
+            "youtube_url": "https://www.youtube.com/watch?v=c_w0LaFahxk"
+        },
+        {
+            "slug": "karri-saarinen",
+            "guest": "Karri Saarinen",
+            "title": "Inside Linear: Building with taste, craft, and focus | Karri Saarinen (co-founder, designer, CEO)",
+            "insights": [
+                {
+                    "type": "Philosophy",
+                    "topic": "Opinionated Software",
+                    "content": "Don't build for everyone. Build tailored software for a specific workflow. This 'opinionated' approach deepens value for the right users rather than diluting it for the masses.",
+                    "quotation": "We want to make it opinionated... if you try to make a tool for everyone, you end up making it for no one.",
+                    "stage": "Strategy",
+                    "tag": "Product Strategy"
+                },
+                {
+                    "type": "Framework",
+                    "topic": "The Linear Method (Cycles)",
+                    "content": "Replace rigid sprints and estimation points with 'cycles' focused on momentum. The goal is to maintain a rhythm of shipping, not to predict the future with false precision.",
+                    "quotation": "We work in cycles... it's about momentum. It's not about estimating points or hours.",
+                    "stage": "Execution",
+                    "tag": "Process"
+                },
+                {
+                    "type": "Principles",
+                    "topic": "Quality as Functionality",
+                    "content": "In professional tools, 'software is the work.' If the tool is slow or ugly, the user feels slow. Speed, aesthetics, and craft are functional requirements, not just polish.",
+                    "quotation": "Software is the work... if the tool is slow, you feel slow. If the tool is clunky, you feel clunky.",
+                    "stage": "Product Craft",
+                    "tag": "Design"
+                },
+                {
+                    "type": "Tactics",
+                    "topic": "Changelog Driven Development",
+                    "content": "Write the changelog entry before or during development. This forces the team to articulate the user value and framing clearly before getting lost in implementation details.",
+                    "quotation": "We often write the changelog entry... before we even finish the feature. It helps you clarify what is the value.",
+                    "stage": "Execution",
+                    "tag": "Product Marketing"
+                },
+                {
+                    "type": "Organization",
+                    "topic": "No PMs (Initially)",
+                    "content": "Linear operated without dedicated PMs for a long time. Engineers and designers were expected to have product sense, reducing handoffs and keeping the team close to the 'why'.",
+                    "quotation": "We didn't have PMs for a long time... we expect engineers and designers to have that product sense.",
+                    "stage": "Organization",
+                    "tag": "Team Structure"
+                },
+                {
+                    "type": "Principles",
+                    "topic": "Building for Yourself (Dogfooding)",
+                    "content": "Building a tool you use yourself (like an issue tracker for a dev team) allows for a tighter feedback loop and higher bar for quality than building for a theoretical user.",
+                    "quotation": "We build Linear for ourselves... that's the ultimate dogfooding. If it annoys us, we fix it.",
+                    "stage": "Discovery",
+                    "tag": "Dogfooding"
+                }
+            ],
+            "publish_date": "2023-10-08",
+            "youtube_url": "https://www.youtube.com/watch?v=4muxFVZ4XfM"
+        },
+        {
+            "slug": "kayvon-beykpour",
+            "guest": "Kayvon Beykpour",
+            "title": "Twitter’s ex-Head of Product on Elon, consumer products, culture, more | Kayvon Beykpour",
+            "insights": [
+                {
+                    "type": "Strategy",
+                    "topic": "Killing Sacred Cows",
+                    "content": "To innovate in a mature product, you must be willing to kill 'sacred cow' features (like the chronological timeline) if they inhibit growth or relevance, even if it angers power users.",
+                    "quotation": "You have to be willing to kill sacred cows... if you don't, you're just managing decline.",
+                    "stage": "Strategy",
+                    "tag": "Product Strategy"
+                },
+                {
+                    "type": "Organization",
+                    "topic": "Acqui-hiring for DNA",
+                    "content": "Acquisitions can be a powerful tool for culture change. Buying Periscope wasn't just about the tech, but about injecting a 'live', real-time, builder DNA into Twitter's stagnant culture.",
+                    "quotation": "It was about injecting this DNA... Periscope was a team of pirates.",
+                    "stage": "Organization",
+                    "tag": "Hiring"
+                },
+                {
+                    "type": "Principles",
+                    "topic": "Celebrating 'Kills'",
+                    "content": "Celebrate the decision to kill a failing feature (like Fleets) as much as a launch. It reinforces a culture of risk-taking and intellectual honesty rather than sunk-cost fallacy.",
+                    "quotation": "We celebrated killing Fleets... because it showed we were willing to take a big swing and admit it didn't work.",
+                    "stage": "Culture",
+                    "tag": "Failure"
+                },
+                {
+                    "type": "Leadership",
+                    "topic": "Review Output, Not WIP",
+                    "content": "As a leader scaling a team, shift from reviewing work-in-progress (which bottlenecks the team) to reviewing outcomes and setting clear principles. trust the team to handle the 'how'.",
+                    "quotation": "Review the output, not the work in progress... otherwise you become the bottleneck.",
+                    "stage": "Cross-Cutting",
+                    "tag": "Leadership"
+                },
+                {
+                    "type": "Strategy",
+                    "topic": "Vision Over A/B Testing",
+                    "content": "You cannot A/B test your way to a new vision. Incremental optimization is safe, but transformative products require a leap of faith based on conviction, followed by iteration.",
+                    "quotation": "You can't A/B test your way to a vision... sometimes you just have to bet on where the world is going.",
+                    "stage": "Discovery",
+                    "tag": "Vision"
+                },
+                {
+                    "type": "Framework",
+                    "topic": "The 'Job' is Dynamic",
+                    "content": "Jobs-to-be-Done is useful but imperfect. Users often don't know what 'job' they need done until a new solution creates the demand. Don't let the framework limit your imagination.",
+                    "quotation": "The job to be done framework... sometimes people take it too literally. The job changes.",
+                    "stage": "Discovery",
+                    "tag": "Frameworks"
+                }
+            ],
+            "publish_date": "2024-04-28",
+            "youtube_url": "https://www.youtube.com/watch?v=MKDnDueTvKk"
+        },
+        {
+            "slug": "ken-norton",
+            "guest": "Ken Norton",
+            "title": "Timeless advice on product leadership, careers, and hiring | Ken Norton (Google, GV)",
+            "insights": [
+                {
+                    "type": "Leadership",
+                    "topic": "Leading Without Authority",
+                    "content": "Don't wait for permission or a title. True product leadership is acting as the leader until someone explicitly tells you to stop. It's about 'taking the con' even when you don't have the rank.",
+                    "quotation": "Lead until someone tells you to stop... It's a mindset shift from 'I need permission' to 'I am the leader'.",
+                    "stage": "Cross-Cutting",
+                    "tag": "Leadership"
+                },
+                {
+                    "type": "Metaphor",
+                    "topic": "Jazz Band Leader vs. Conductor",
+                    "content": "PMs are not orchestra conductors (who follow a strict score and command). They are jazz band leaders: providing a basic structure but listening deeply and allowing individual members to improvise and shine.",
+                    "quotation": "It's not the conductor... it's the jazz band leader. You set the tempo, you key it off, but then you listen... you let them solo.",
+                    "stage": "Execution",
+                    "tag": "Team Dynamics"
+                },
+                {
+                    "type": "Strategy",
+                    "topic": "10x vs. 10% Thinking",
+                    "content": "Improving something by 10% is often harder than improving it by 10x. 10% means fighting for marginal gains in a crowded space. 10x forces you to rethink the entire problem, often revealing a blue ocean.",
+                    "quotation": "10% improvements are often harder than 10x improvements... 10x forces you to change your perspective completely.",
+                    "stage": "Strategy",
+                    "tag": "Innovation"
+                },
+                {
+                    "type": "Hiring",
+                    "topic": "Hiring for the 'Spidey Sense'",
+                    "content": "When hiring PMs, look beyond the resume checklist. Look for the 'intangibles'—product intuition, curiosity, and the ability to influence—that separate good PMs from great ones.",
+                    "quotation": "I look for the spidey sense... the intangibles that aren't on the resume. Can they do the job vs. can they pass the interview.",
+                    "stage": "Organization",
+                    "tag": "Hiring"
+                },
+                {
+                    "type": "Personal Growth",
+                    "topic": "Coaching vs. Advice",
+                    "content": "Advice is 'here is what I would do.' Coaching is 'helping you find your own answer.' As you grow, seek coaching to build your own judgment rather than just collecting advice.",
+                    "quotation": "Advice is cheap... Coaching is about helping you unlock your own potential and find your own answers.",
+                    "stage": "Cross-Cutting",
+                    "tag": "Coaching"
+                },
+                {
+                    "type": "Framework",
+                    "topic": "Dual Track Development",
+                    "content": "Separate Discovery (figuring out what to build) from Delivery (building it). Discovery should be fast, messy, and cheap. Delivery should be predictable and high-quality. Don't apply delivery rigor to discovery.",
+                    "quotation": "You need dual track... Discovery is fast and cheap... Delivery is predictable. Don't mix them up.",
+                    "stage": "Execution",
+                    "tag": "Process"
+                }
+            ],
+            "publish_date": "2022-07-24",
+            "youtube_url": "https://www.youtube.com/watch?v=6P0Es02vIF4"
+        },
+        {
+            "slug": "kenneth-berger",
+            "guest": "Kenneth Berger",
+            "title": "A guide to asking for what you want | Kenneth Berger (early Slack PM, coach)",
+            "insights": [
+                {
+                    "type": "Framework",
+                    "topic": "The 'Articulate, Ask, Accept' Loop",
+                    "content": "To get what you want: 1. Articulate it clearly to yourself. 2. Ask for it explicitly from others. 3. Accept the outcome (even if it's a 'no') to move forward without resentment.",
+                    "quotation": "Articulate what you want... Ask for it... and then Accept the reality of the response.",
+                    "stage": "Cross-Cutting",
+                    "tag": "Communication"
+                },
+                {
+                    "type": "Psychology",
+                    "topic": "The Fear of the 'No'",
+                    "content": "Most PMs (and people) avoid asking because they fear rejection. But a 'No' is just data. It clarifies reality. Avoiding the ask keeps you in a fantasy world where you 'might' get it.",
+                    "quotation": "The 'No' is information... it's just data. It tells you where you stand.",
+                    "stage": "Cross-Cutting",
+                    "tag": "Mindset"
+                },
+                {
+                    "type": "Leadership",
+                    "topic": "Integrity as Aliveness",
+                    "content": "Suppressing your desires leads to burnout and deadness. Integrity isn't just morals; it's structural wholeness. Being true to what you want brings 'aliveness' and energy to your work.",
+                    "quotation": "Integrity is about wholeness... when you suppress what you want, you lose aliveness.",
+                    "stage": "Cross-Cutting",
+                    "tag": "Well-being"
+                },
+                {
+                    "type": "Strategy",
+                    "topic": "Understanding Founder Fear",
+                    "content": "Founders often operate from a place of deep survival fear. Empathizing with this fear—rather than judging it—is the key to managing up effectively and building trust.",
+                    "quotation": "Founders are often terrified... it's valid fear. Understanding that changes how you relate to them.",
+                    "stage": "Organization",
+                    "tag": "Managing Up"
+                },
+                {
+                    "type": "Personal Story",
+                    "topic": "Getting Fired as a Gift",
+                    "content": "Being fired (as he was from Slack) can be a profound gift. It forces you to confront where you weren't in alignment and pushes you toward work that truly suits you.",
+                    "quotation": "Getting fired from Slack was one of the best things that happened to me... it forced me to face reality.",
+                    "stage": "Career Growth",
+                    "tag": "Resilience"
+                }
+            ],
+            "publish_date": "2024-05-19",
+            "youtube_url": "https://www.youtube.com/watch?v=KSCjl_VIdak"
+        },
+        {
+            "slug": "kevin-kwok",
+            "guest": "Kevin Kwok",
+            "title": "Kevin Kwok on loops and the arc of product success",
+            "insights": [
+                {
+                    "type": "Concept",
+                    "topic": "Compounding Loops",
+                    "content": "The best businesses don't rely on linear growth. They find 'loops' where the output of one cycle (e.g., more users) becomes the input for the next (e.g., more data/value).",
+                    "quotation": "Loops are the engine of defensibility. If your product doesn't naturally get better or cheaper as more people use it, you're just fighting for every single customer.",
+                    "stage": "Growth",
+                    "tag": "Retention"
+                }
+            ]
+        },
+        {
+            "slug": "kevin-yien",
+            "guest": "Kevin Yien",
+            "title": "Unorthodox PM tips",
+            "insights": [
+                {
+                    "type": "Hiring",
+                    "topic": "The Unsell Email",
+                    "content": "Send candidates an email listing all the terrible things about the job. If they remain excited, they are an A+ hire.",
+                    "quotation": "I send an email and I say all the terrible things... if they can read that whole email and still be equally excited... find yourself a A+ hire.",
+                    "stage": "Hiring",
+                    "tag": "Recruiting"
+                },
+                {
+                    "type": "Career",
+                    "topic": "Decision Logs",
+                    "content": "PMs should keep a decision log to track rationale and outcomes. Product sense is just creating good outcomes with insufficient data.",
+                    "quotation": "PMs need as many reps as possible in making decisions, documenting the rationale... and then crucially seeing the outcome.",
+                    "stage": "Career",
+                    "tag": "Decision Making"
+                },
+                {
+                    "type": "Leadership",
+                    "topic": "The Quality Bar",
+                    "content": "Quality is not a checklist item; it is a cultural standard. If parity with competitors is the goal, you will never lead. The goal should be the 'least-bad' experience turning into delight.",
+                    "quotation": "If you don't feel a physical pain when a mediocre feature ships, you're in the wrong company. Success is about the details that everyone else ignores.",
+                    "stage": "Design",
+                    "tag": "Product Excellence"
+                }
+            ],
+            "publish_date": "2024-08-18",
+            "youtube_url": "https://www.youtube.com/watch?v=xOTO98MXG9o"
+        },
+        {
+            "slug": "lane-shackleton",
+            "guest": "Lane Shackleton",
+            "title": "What sets great teams apart | Lane Shackleton (CPO of Coda)",
+            "insights": [
+                {
+                    "type": "Framework",
+                    "topic": "High-Stakes Decision Logs",
+                    "content": "Keep a log of high-stakes, binary decisions including context, rationale, and expected outcomes. Revisit these logs months later to calibrate intuition and learn from past biases.",
+                    "quotation": "What if we just wrote down when we're making a high stakes binary decision... and we just revisit it in six months and see how we did?",
+                    "stage": "Strategy",
+                    "tag": "Decision Making"
+                },
+                {
+                    "type": "Concept",
+                    "topic": "Flash Tags",
+                    "content": "Use 'Flash Tags' (highly compressed concepts/terminology) to maintain high-velocity communication within teams without losing nuance.",
+                    "quotation": "Called flash tags... the most compressed version of a concept that you can get down to.",
+                    "stage": "Optimization",
+                    "tag": "Communication"
+                }
+            ],
+            "publish_date": "2023-10-01",
+            "youtube_url": "https://www.youtube.com/watch?v=XmgetFMgQZ0"
+        },
+        {
+            "slug": "lewis-lin",
+            "guest": "Lewis Lin",
+            "title": "Lewis Lin on the DIGS Method for Interviews",
+            "insights": [
+                {
+                    "type": "Framework",
+                    "topic": "DIGS Method (Dramatize, Indicate, Go through, Summarize)",
+                    "content": "A storytelling framework for behavioral interviews to ensure maximum impact: Dramatize the problem, Indicate the alternatives, Go through the steps, and Summarize the results.",
+                    "quotation": "People forget facts, but they remember stories. Use DIGS to make your impact feel like a cinematic event, not a status report.",
+                    "stage": "Discovery",
+                    "tag": "Interviewing"
+                }
+            ]
+        },
+        {
+            "slug": "maggie-crowley",
+            "guest": "Maggie Crowley",
+            "title": "Mastering product strategy and growing as a PM | Maggie Crowley (Toast, Drift, TripAdvisor)",
+            "insights": [
+                {
+                    "type": "Framework",
+                    "topic": "Strategy Cascade",
+                    "content": "Product strategy should be a clear cascade starting from the company vision down to specific roadmap items, ensuring every level supports the one above.",
+                    "quotation": "I think about strategy as a cascade... the vision is the 'why', the strategy is the 'how', and the roadmap is the 'what'.",
+                    "stage": "Strategy",
+                    "tag": "Planning"
+                },
+                {
+                    "type": "Soft Skills",
+                    "topic": "The Alignment Clarifier",
+                    "content": "To force prioritization and surface misalignments, ask stakeholders: 'If we could only do one thing this quarter to be successful, what would it be?'",
+                    "quotation": "If you could only do one thing this quarter to be successful, what would it be?",
+                    "stage": "Cross-Cutting",
+                    "tag": "Alignment"
+                }
+            ],
+            "publish_date": "2023-11-05",
+            "youtube_url": "https://www.youtube.com/watch?v=4LjddcccYIo"
+        },
+        {
+            "slug": "marcel-weekes",
+            "guest": "Marcel Weekes",
+            "title": "Marcel Weekes on Engineering-Product Collaboration",
+            "insights": [
+                {
+                    "type": "Leadership",
+                    "topic": "Shared Outcome Ownership",
+                    "content": "Engineers shouldn't just build what PMs spec. They should be co-owners of the business outcome, attending user research and participating in strategy.",
+                    "quotation": "An engineer who understands the 'why' is 10 times more valuable than one who just follows a PRD.",
+                    "stage": "Execution",
+                    "tag": "Collaboration"
+                }
+            ]
+        },
+        {
+            "slug": "marty-cagan",
+            "guest": "Marty Cagan",
+            "title": "Product management theater | Marty Cagan (Silicon Valley Product Group)",
+            "insights": [
+                {
+                    "type": "Philosophy",
+                    "topic": "Outcome vs Output",
+                    "content": "The fundamental divide in product management is between teams that ship features (output) and teams that solve business problems (outcomes).",
+                    "quotation": "There's two types of product management: the one that's about shipping features (output-driven), and the one that's actually about solving problems (outcome-driven).",
+                    "stage": "Strategy",
+                    "tag": "Product Mindset"
+                }
+            ],
+            "publish_date": "2024-03-10",
+            "youtube_url": "https://www.youtube.com/watch?v=9N4ZgNaWvI0"
+        },
+        {
+            "slug": "archie-abrams",
+            "guest": "Matt Abrahams",
+            "title": "How to speak more confidently and persuasively | Matt Abrahams (professor, speaker, author)",
+            "insights": [
+                {
+                    "type": "Growth",
+                    "topic": "Funnel Widening vs Conversion",
+                    "content": "It is often easier and more impactful to 'get more people in the door' (top of funnel/activation) than to optimize conversion rate at a specific step. Optimizing for local conversion (e.g., adding friction to qualify leads) often creates a smaller total business than a messy funnel with more volume.",
+                    "quotation": "It's actually almost always easier to just make it harder to do the thing right before your step... instead of I'm trying to convert a bunch of people, I just want more people to get activated.",
+                    "stage": "Growth",
+                    "tag": "Funnel"
+                },
+                {
+                    "type": "Experimentation",
+                    "topic": "Shipping Neutral Experiments",
+                    "content": "If an experiment is neutral but intuition says it's better for the user, ship it. Don't default to 'Control wins' on ties. Ties mean both are equal, so pick the one that aligns better with intuition/vision.",
+                    "quotation": "If the intuition is right that this probably is helping merchants, why do we start with that the original control is better if it's neutral?",
+                    "stage": "Optimization",
+                    "tag": "Experimentation"
+                },
+                {
+                    "type": "Strategy",
+                    "topic": "100-Year Vision",
+                    "content": "Shopify optimizes for the 100-year view. Requires prioritizing the long-tail of entrepreneurs (who will be the giants of tomorrow) over quick enterprise revenue wins today (companies that might die in 50 years).",
+                    "quotation": "The decisions we're going to make are really oriented towards the long-term success of merchants, of Shopify... we are here to build a 100 year company.",
+                    "stage": "Strategy",
+                    "tag": "Vision"
+                }
+            ],
+            "publish_date": "2024-03-31",
+            "youtube_url": "https://www.youtube.com/watch?v=LpbBzmXrzEY"
+        },
+        {
+            "slug": "mayur-kamat",
+            "guest": "Mayur Kamat",
+            "title": "Unconventional product lessons from Binance, N26, Google, more | Mayur Kamat (CPO at N26)",
+            "insights": [
+                {
+                    "category": "Strategy",
+                    "content": "Launch features that unblock users immediately, even if they aren't perfect. Speed is a feature.",
+                    "quotation": "In crypto, usually the opportunity cost of not launching is higher than the cost of launching something that's broken."
+                },
+                {
+                    "category": "Discovery",
+                    "content": "Don't just copy competitors. Understand the underlying user need that the competitor is solving.",
+                    "quotation": "You can Copy-Paste the feature, but you can't Copy-Paste the insight."
+                },
+                {
+                    "category": "Growth",
+                    "content": "In high-growth markets, acquiring users is often about removing friction rather than adding value.",
+                    "quotation": "Sometimes the best growth hack is just making sure the sign-up button works."
+                }
+            ],
+            "publish_date": "2025-05-22",
+            "youtube_url": "https://www.youtube.com/watch?v=UVyfuSBwbNA"
+        },
+        {
+            "slug": "megan-cook",
+            "guest": "Megan Cook",
+            "title": "Lessons from Atlassian | Megan Cook (Head of Product, Jira)",
+            "insights": [
+                {
+                    "category": "Optimization",
+                    "content": "Fixing the 'Jira tax': Focus on performance and usability to win back user trust.",
+                    "quotation": "We realized we had to pay down the debt of complexity we had built up over a decade."
+                },
+                {
+                    "category": "Discovery",
+                    "content": "Democratize customer interviews. Engineers and designers should be talking to users, not just PMs.",
+                    "quotation": "It changes the conversation when an engineer sees a user struggle with their code."
+                },
+                {
+                    "category": "Scale",
+                    "content": "The 'triad' (PM, Engineering, Design) is the fundamental unit of decision making at Atlassian.",
+                    "quotation": "No decision gets made without the triad being aligned."
+                }
+            ],
+            "publish_date": "2024-02-04",
+            "youtube_url": "https://www.youtube.com/watch?v=MQQ1wohqArk"
+        },
+        {
+            "slug": "melanie-perkins",
+            "guest": "Melanie Perkins",
+            "title": "She turned 100+ rejections into a $42B company | Melanie Perkins",
+            "insights": [
+                {
+                    "category": "Strategy",
+                    "content": "Start with a niche (yearbooks) to prove the model before expanding to the entire market.",
+                    "quotation": "We didn't start with 'design for everyone'. We started with 'yearbooks for schools'."
+                },
+                {
+                    "category": "Cross-Cutting",
+                    "content": "Resilience is key. 100 rejections taught me to refine the pitch, not abandon the vision.",
+                    "quotation": "Every 'no' was just feedback on how to get to the 'yes'."
+                },
+                {
+                    "category": "Design",
+                    "content": "Empower users by making complex tools accessible. democratize design.",
+                    "quotation": "Our goal was to make design simple for everyone, not just designers."
+                }
+            ],
+            "publish_date": "2025-11-02",
+            "youtube_url": "https://www.youtube.com/watch?v=-LywX3T5Scc"
+        },
+        {
+            "slug": "melissa-perri",
+            "guest": "Melissa Perri",
+            "title": "Everything you’ve ever wanted to know about SAFe and the product owner role",
+            "insights": [
+                {
+                    "category": "Strategy",
+                    "content": "The 'Product Owner' is a role in Scrum, not a job title. The job is Product Management.",
+                    "quotation": "If you only focus on the 'Owner' part, you become a backlog administrator."
+                },
+                {
+                    "category": "Transformation",
+                    "content": "SAFe often fails because it's implemented as a rigorous process rather than a mindset shift.",
+                    "quotation": "You can't process your way to product innovation."
+                },
+                {
+                    "category": "Strategy",
+                    "content": "Strategy is not a fixed plan; it's a framework for decision making.",
+                    "quotation": "Good strategy enables teams to say 'no' to good ideas."
+                }
+            ],
+            "publish_date": "2024-11-10",
+            "youtube_url": "https://www.youtube.com/watch?v=wbi9chsAHp4"
+        },
+        {
+            "slug": "melissa-perri-denise-tilles",
+            "guest": "Melissa Perri + Denise Tilles",
+            "title": "The ultimate guide to product operations | Melissa Perri and Denise Tilles",
+            "insights": [
+                {
+                    "category": "Optimization",
+                    "content": "Product Ops is about enabling the product team to function effectively, not controlling them.",
+                    "quotation": "Product Ops should be the oil in the machine, not the driver."
+                },
+                {
+                    "category": "Discovery",
+                    "content": "The three pillars of Product Ops: Data/Insights, Customer/Market Research, and Process/Governance.",
+                    "quotation": "If you don't have good data, you can't make good decisions."
+                },
+                {
+                    "category": "Scale",
+                    "content": "Don't start a Product Ops team until you have a clear scaling problem to solve.",
+                    "quotation": "Don't hire Product Ops just because it's trendy. Hire it to fix pain."
+                }
+            ],
+            "publish_date": "2023-11-16",
+            "youtube_url": "https://www.youtube.com/watch?v=9VdixM9KPN4"
+        },
+        {
+            "slug": "melissa-tan",
+            "guest": "Melissa Tan",
+            "title": "Building high-performing teams | Melissa Tan (Webflow, Dropbox, Canva)",
+            "insights": [
+                {
+                    "category": "Scale",
+                    "content": "Growth models change at scale. What got you to $10M won't get you to $100M.",
+                    "quotation": "You have to be willing to kill the process that made you successful yesterday."
+                },
+                {
+                    "category": "Leadership",
+                    "content": "Hire for 'slope' (trajectory) over 'y-intercept' (current skill level) in high-growth environments.",
+                    "quotation": "I look for people who are learning faster than the company is growing."
+                },
+                {
+                    "category": "Growth",
+                    "content": "Alignment is the biggest bottleneck to speed in scaling organizations.",
+                    "quotation": "Speed comes from clarity, not just working harder."
+                }
+            ],
+            "publish_date": "2023-06-18",
+            "youtube_url": "https://www.youtube.com/watch?v=DoEfXj1b_ko"
+        },
+        {
+            "slug": "meltem-kuran",
+            "guest": "Meltem Kuran",
+            "title": "An inside look at Deel’s unprecedented growth | Meltem Kuran Berkowitz (Head",
+            "insights": [
+                {
+                    "category": "Scale",
+                    "content": "Speed is a cultural value that starts at the top. Deel literally measures response times metrics.",
+                    "quotation": "People think we are crazy, but speed is our strategy."
+                },
+                {
+                    "category": "Strategy",
+                    "content": "Don't build for every edge case. Solve the 80% that matters most and fix the rest later.",
+                    "quotation": "Perfect is the enemy of the done, especially in fintech."
+                },
+                {
+                    "category": "Growth",
+                    "content": "Hyper-growth requires constant reorganization. Your role today will not be your role in 6 months.",
+                    "quotation": "If you want comfort, don't join a rocket ship."
+                }
+            ],
+            "publish_date": "2023-08-27",
+            "youtube_url": "https://www.youtube.com/watch?v=C1_sM0_ds2c"
+        },
+        {
+            "slug": "merci-grace",
+            "guest": "Merci Grace",
+            "title": "How to work through fear, give hard feedback, and doing layoffs with grace",
+            "insights": [
+                {
+                    "category": "Cross-Cutting",
+                    "content": "Hard feedback is kinder than silence. 'Ruinous Empathy' kills teams.",
+                    "quotation": "Being nice is not the same as being kind. Kindness is telling the truth."
+                },
+                {
+                    "category": "Leadership",
+                    "content": "Managing through fear: Acknowledge the fear, but focus on the work.",
+                    "quotation": "Courage isn't the absence of fear; it's acting despite it."
+                },
+                {
+                    "category": "Cross-Cutting",
+                    "content": "Layoffs are a failure of management, but must be executed with dignity for those leaving.",
+                    "quotation": "How you treat people on their way out defines your culture."
+                }
+            ],
+            "publish_date": "2022-11-10",
+            "youtube_url": "https://www.youtube.com/watch?v=bCel0X2Ta7U"
+        },
+        {
+            "slug": "michael-truell",
+            "guest": "Michael Truell",
+            "title": "The rise of Cursor: The $300M ARR AI tool that engineers can’t stop using",
+            "insights": [
+                {
+                    "category": "Strategy",
+                    "content": "To displace an incumbent (VS Code), you have to be 10x better on their home turf.",
+                    "quotation": "We couldn't just be an AI plugin. We had to be a better editor."
+                },
+                {
+                    "category": "Development",
+                    "content": "AI coding tools aren't just autocomplete; they are reasoning engines for your codebase.",
+                    "quotation": "The model knows your code better than you do."
+                },
+                {
+                    "category": "Strategy",
+                    "content": "The future of engineering is 'spec-driven development' where humans define intent and AI handles implementation.",
+                    "quotation": "We are moving from writing code to writing specs."
+                }
+            ],
+            "publish_date": "2025-05-01",
+            "youtube_url": "https://www.youtube.com/watch?v=En5cSXgGvZM"
+        },
+        {
+            "slug": "mina-radhakrishnan",
+            "guest": "Mina Radhakrishnan",
+            "title": "Mina Radhakrishnan on Lead-User Innovation at Uber",
+            "insights": [
+                {
+                    "type": "Concept",
+                    "topic": "Lead-User Innovation",
+                    "content": "Innovation often comes from 'lead users' who are already hacking your product to solve advanced problems. Observe the workarounds to find the next major feature.",
+                    "quotation": "Watch what your power users are doing that you never intended. If they're using a screwdriver as a hammer, maybe you should build a better hammer.",
+                    "stage": "Discovery",
+                    "tag": "Product Discovery"
+                }
+            ]
+        },
+        {
+            "slug": "nelson-gil-mendez",
+            "guest": "Nelson Gil Mendez",
+            "title": "Nelson Gil Mendez on Product Operations at Uber",
+            "insights": [
+                {
+                    "type": "Definition",
+                    "topic": "Product Operations",
+                    "content": "Product Ops exists to scale the product team by owning data accessibility, tool standardisation, and the 'operating system' of how product gets built.",
+                    "quotation": "Product Ops shouldn't do the PM's job. It should remove the friction that prevents the PM from doing their job.",
+                    "stage": "Scale",
+                    "tag": "Product Ops"
+                }
+            ]
+        },
+        {
+            "slug": "noah-weiss",
+            "guest": "Noah Weiss",
+            "title": "Noah Weiss on Product Management at Slack",
+            "insights": [
+                {
+                    "type": "Philosophy",
+                    "topic": "Product Polish",
+                    "content": "Polish is the difference between a tool and a product. Small details (loading states, copy, transitions) build trust and emotional connection with the user.",
+                    "quotation": "If the product feels like magic, it's usually because someone spent 100 hours on a detail that only takes 1 second to experience.",
+                    "stage": "Design",
+                    "tag": "Product Excellence"
+                }
+            ],
+            "publish_date": "2023-07-23",
+            "youtube_url": "https://www.youtube.com/watch?v=XrRlVOWe5GE"
+        },
+        {
+            "slug": "petra-wille",
+            "guest": "Petra Wille",
+            "title": "Petra Wille on Product Coaching and Growth",
+            "insights": [
+                {
+                    "type": "Definition",
+                    "topic": "The Coaching Lead",
+                    "content": "Manage people, not products. Product leaders should spend 50% of their time coaching individual PMs to improve their specific competencies rather than micro-managing results.",
+                    "quotation": "If you're spending all your time in meetings deciding what features to build, you're not leading people. You're just a high-paid project manager.",
+                    "stage": "Scale",
+                    "tag": "Leadership"
+                }
+            ],
+            "publish_date": "2022-11-27",
+            "youtube_url": "https://www.youtube.com/watch?v=4n3ybRqU5mU"
+        },
+        {
+            "slug": "ravi-mehta",
+            "guest": "Ravi Mehta",
+            "title": "Ravi Mehta on Product Competence and the 12-Competency Model",
+            "insights": [
+                {
+                    "type": "Framework",
+                    "topic": "12 Product Competencies",
+                    "content": "Evaluate PMs across four key areas: Strategy, Execution, User Insight, and Influence. Each area has 3 sub-skills for a total of 12 distinct competencies.",
+                    "quotation": "Every great PM has a jagged profile. No one is a 10/10 on all 12. The goal is to build a team with complementary jagged edges.",
+                    "stage": "Cross-Cutting",
+                    "tag": "Career"
+                }
+            ],
+            "publish_date": "2023-01-19",
+            "youtube_url": "https://www.youtube.com/watch?v=tncs0m5pmQg"
+        },
+        {
+            "slug": "shishir-mehrotra",
+            "guest": "Shishir Mehrotra",
+            "title": "Shishir Mehrotra on Rituals and the Coda Way",
+            "insights": [
+                {
+                    "type": "Leadership",
+                    "topic": "Eigenquestions",
+                    "content": "An 'eigenquestion' is the single question that, once answered, makes the answers to all other related questions fall into place.",
+                    "quotation": "Stop debating the roadmap. Find the eigenquestion. Once you solve that, the roadmap becomes obvious.",
+                    "stage": "Strategy",
+                    "tag": "Decision Making"
+                }
+            ],
+            "publish_date": "2022-08-14",
+            "youtube_url": "https://www.youtube.com/watch?v=7uSuMIJhONA"
+        },
+        {
+            "slug": "sridhar-ramaswamy",
+            "guest": "Sridhar Ramaswamy",
+            "title": "Sridhar Ramaswamy on Vision and Neeva",
+            "insights": [
+                {
+                    "type": "Philosophy",
+                    "topic": "The Multi-Decade Vision",
+                    "content": "True product leadership requires the ability to look 10 years ahead and build the foundation today. Don't just follow trends; anticipate structural shifts in human behavior.",
+                    "quotation": "If you are playing for the next quarter, you've already lost the next decade. Success comes from the patience to be right about the future.",
+                    "stage": "Strategy",
+                    "tag": "Product Vision"
+                }
+            ]
+        },
+        {
+            "slug": "todd-olson",
+            "guest": "Todd Olson",
+            "title": "Todd Olson on Pendo's Product-Led Growth",
+            "insights": [
+                {
+                    "type": "Framework",
+                    "topic": "The Product-Led Flywheel",
+                    "content": "A model for PLG: Design for the 'Aha!' moment first, then build features that drive retention, which in turn fuels word-of-mouth acquisition.",
+                    "quotation": "In a product-led world, the product is your best salesperson. If the user doesn't get value in the first 5 minutes, you've lost them.",
+                    "stage": "Growth",
+                    "tag": "PLG"
+                }
+            ]
+        },
+        {
+            "slug": "eoy-review",
+            "guest": "Various",
+            "title": "Countdown of the top 10 episodes of the year",
+            "insights": [
+                {
+                    "type": "Strategy",
+                    "topic": "Positioning Steps",
+                    "content": "First step of positioning: Understand Competitive Alternatives. What does the customer do if they don't buy you? (Status quo or other shortlist items).",
+                    "quotation": "The first step in a good positioning exercise is to really understand what do we have to position against? (April Dunford)",
+                    "stage": "Strategy",
+                    "tag": "Positioning"
+                },
+                {
+                    "type": "Meta",
+                    "topic": "Best of the Best",
+                    "content": "This episode compiles top insights. Key themes include positioning (Dunford), retention (Widjaja), and product sense (Zhuo).",
+                    "quotation": "A compilation of the best insights from the year.",
+                    "stage": "Cross-Cutting",
+                    "tag": "Best Practices"
+                }
+            ],
+            "publish_date": "2022-12-29",
+            "youtube_url": "https://www.youtube.com/watch?v=f4cskASqAsg"
+        },
+        {
+            "slug": "failure",
+            "guest": "Various",
+            "title": "Failure",
+            "insights": [
+                {
+                    "type": "Meta",
+                    "topic": "Learning from Failure",
+                    "content": "You can often learn more from failure than from success. This episode compiles failure stories from top leaders.",
+                    "quotation": "Normally I spend a lot of time researching how the best companies... operate, but you can learn a lot and often a lot more from failure.",
+                    "stage": "Cross-Cutting",
+                    "tag": "Failure"
+                },
+                {
+                    "type": "Leadership",
+                    "topic": "Rebellion",
+                    "content": "Katie Dill shares a story of her design team at Airbnb rebelling against her early tenure, a key learning moment.",
+                    "quotation": "The entire design team at Airbnb basically rebelled against her soon after she joined.",
+                    "stage": "Leadership",
+                    "tag": "Management"
+                }
+            ],
+            "publish_date": "2023-12-13",
+            "youtube_url": "https://www.youtube.com/watch?v=9euy9gC48lc"
+        },
+        {
+            "slug": "interview-q-compilation",
+            "guest": "Various",
+            "title": "Favorite interview questions from top product leaders",
+            "insights": [
+                {
+                    "type": "Hiring",
+                    "topic": "Attributing Success",
+                    "content": "Eeke De Miliano asks 'To what do you attribute your success?' requiring candidates to look beyond 'luck' and show self-awareness.",
+                    "quotation": "To what do you attribute your success? And you can't say 'luck'.",
+                    "stage": "Interview",
+                    "tag": "Hiring"
+                }
+            ],
+            "publish_date": "2025-07-03",
+            "youtube_url": "https://www.youtube.com/watch?v=VxAwUb86MUE"
+        }
+    ]
+}

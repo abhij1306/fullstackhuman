@@ -1,0 +1,81 @@
+{
+  "stages": {
+    "Discovery": [
+      "user research",
+      "problem definition",
+      "validation",
+      "interviews",
+      "hypothesis",
+      "prototyping",
+      "mvp"
+    ],
+    "Strategy": [
+      "vision",
+      "roadmap",
+      "prioritization",
+      "okrs",
+      "market analysis",
+      "positioning",
+      "business model"
+    ],
+    "Design": [
+      "ux",
+      "ui",
+      "usability",
+      "workflow",
+      "mockups",
+      "design system",
+      "accessibility"
+    ],
+    "Development": [
+      "engineering",
+      "agile",
+      "scrum",
+      "sprint",
+      "tech debt",
+      "qa",
+      "deployment"
+    ],
+    "Launch": [
+      "go-to-market",
+      "marketing",
+      "messaging",
+      "pricing",
+      "sales enablement",
+      "launch plan"
+    ],
+    "Growth": [
+      "acquisition",
+      "retention",
+      "onboarding",
+      "loops",
+      "virality",
+      "conversion",
+      "funnel"
+    ],
+    "Scale": [
+      "hiring",
+      "team structure",
+      "process",
+      "culture",
+      "infrastructure",
+      "internationalization"
+    ],
+    "Optimization": [
+      "analytics",
+      "metrics",
+      "experimentation",
+      "a/b testing",
+      "profitability",
+      "efficiency"
+    ],
+    "Cross-Cutting": [
+      "leadership",
+      "communication",
+      "stakeholder management",
+      "career",
+      "soft skills",
+      "remote work"
+    ]
+  }
+}

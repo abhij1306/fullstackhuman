@@ -1,4 +1,4 @@
-import { Home, Lightbulb, ClipboardList, Palette, Code, Rocket, TrendingUp, Network, Zap, BookOpen, Box, Layers, Hexagon } from "lucide-react"
+import { Home, Lightbulb, ClipboardList, Palette, Code, Rocket, TrendingUp, Network, Zap, BookOpen, Box, Layers } from "lucide-react"
 import { cn } from "@/lib/utils"
 import { Button } from "@/components/ui/button"
 import { Link, useLocation, useSearchParams } from "react-router-dom"
@@ -12,7 +12,6 @@ const stages = [
     { name: "Growth", icon: TrendingUp, path: "/stage/growth", color: "text-green-600", bg: "bg-green-50" },
     { name: "Scale", icon: Network, path: "/stage/scale", color: "text-indigo-600", bg: "bg-indigo-50" },
     { name: "Optimization", icon: Zap, path: "/stage/optimization", color: "text-amber-600", bg: "bg-amber-50" },
-    { name: "Cross-Cutting", icon: Layers, path: "/stage/cross-cutting", color: "text-red-600", bg: "bg-red-50" },
 ]
 
 export function Sidebar({ className }: { className?: string }) {
@@ -25,9 +24,13 @@ export function Sidebar({ className }: { className?: string }) {
             <div className="space-y-1 py-4">
                 {/* Logo */}
                 <div className="px-4 mb-5">
-                    <Link to="/" className="flex items-center gap-2 group">
-                        <div className="p-2 rounded-xl bg-gradient-to-br from-teal-400 to-purple-500 shadow-lg shadow-purple-200 group-hover:shadow-purple-300 transition-shadow">
-                            <Hexagon className="h-5 w-5 text-white" />
+                    <Link to="/" className="flex items-center gap-3 group">
+                        <div className="relative h-10 w-10 shrink-0 overflow-hidden rounded-xl border border-gray-100 shadow-sm transition-all group-hover:shadow-md group-hover:scale-105 duration-200">
+                            <img
+                                src="/logo.png"
+                                alt="PM OS Logo"
+                                className="h-full w-full object-cover scale-150"
+                            />
                         </div>
                         <div>
                             <h2 className="text-lg font-bold tracking-tight bg-gradient-to-r from-teal-600 to-purple-600 bg-clip-text text-transparent">
@@ -88,6 +91,22 @@ export function Sidebar({ className }: { className?: string }) {
                             Workflows
                         </Button>
                     </Link>
+                    <Link to="/stage/core-skills">
+                        <Button
+                            variant={location.pathname === "/stage/core-skills" ? "secondary" : "ghost"}
+                            className={cn(
+                                "w-full justify-start h-9 px-3 text-sm font-medium rounded-lg transition-all",
+                                location.pathname === "/stage/core-skills"
+                                    ? "bg-slate-50 text-slate-700 border border-slate-200/50"
+                                    : "hover:bg-gray-100"
+                            )}
+                        >
+                            <div className={cn("mr-3 p-1.5 rounded-lg transition-colors", location.pathname === "/stage/core-skills" ? "bg-slate-200" : "bg-slate-100")}>
+                                <Layers className="h-3.5 w-3.5 text-slate-700" />
+                            </div>
+                            Core Skills
+                        </Button>
+                    </Link>
                 </div>
 
                 {/* Stages Section */}
@@ -108,7 +127,6 @@ export function Sidebar({ className }: { className?: string }) {
                             "text-green-600": "bg-green-100",
                             "text-indigo-600": "bg-indigo-100",
                             "text-amber-600": "bg-amber-100",
-                            "text-red-600": "bg-red-100",
                         }
                         const bgClass = iconBgClass[stage.color] || "bg-gray-100"
                         const activeBgClass = bgClass.replace('100', '200')

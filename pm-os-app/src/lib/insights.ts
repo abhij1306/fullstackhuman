@@ -14,7 +14,7 @@ export const PRODUCT_STAGES = [
     { name: "Growth", id: "growth" },
     { name: "Scale", id: "scale" },
     { name: "Optimization", id: "optimization" },
-    { name: "Cross-Cutting", id: "cross-cutting" },
+    { name: "Core Skills", id: "core-skills" },
 ]
 
 // Safe access to episodes array regardless of whether JSON import is treated as objects or array

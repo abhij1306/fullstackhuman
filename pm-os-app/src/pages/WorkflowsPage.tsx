@@ -20,7 +20,7 @@ const stageLabels: Record<string, string> = {
   launch: "Launch",
   optimization: "Optimization",
   scale: "Scale",
-  "cross-cutting": "Cross-Cutting",
+  "core-skills": "Core Skills",
 }
 
 function WorkflowRow({ workflow, index }: { workflow: Workflow; index: number }) {

@@ -53,7 +53,7 @@
                     "topic": "Empathy Breakdown",
                     "content": "The hardest part of empathy is not putting someone else's shoes on, but taking your own shoes off (removing your own biases, goals, and assumptions) before trying to understand others.",
                     "quotation": "The hardest part is taking my own shoes off.",
-                    "stage": "Cross-Cutting",
+                    "stage": "Core Skills",
                     "tag": "Leadership"
                 }
             ],
@@ -119,7 +119,7 @@
                     "topic": "Full-Stack Product Management",
                     "content": "PMs at media companies like NYT work across the full stack: Content, Distribution, and Product. Tech PMs often only own Software + Distribution. This requires Media PMs to blend art (content judgment) and science (metrics).",
                     "quotation": "A key difference... is that you work across the full stack of the product. Meaning, we own our journalism and our content... and we own our products.",
-                    "stage": "Cross-Cutting",
+                    "stage": "Core Skills",
                     "tag": "Career"
                 }
             ],
@@ -177,7 +177,7 @@
                     "topic": "Complimentary Management",
                     "content": "A healthy manager-report relationship frames roles as: Manager owns context (what matters to the biz), Employee owns recommendation. Don't try to guess what the manager would decide; share your unique recommendation based on your deep data.",
                     "quotation": "My manager owns context, I own the recommendation.",
-                    "stage": "Cross-Cutting",
+                    "stage": "Core Skills",
                     "tag": "Career"
                 },
                 {
@@ -218,7 +218,7 @@
                     "topic": "Impact of Passion",
                     "content": "Passion is a productivity multiplier. When you are passionate about the work, you are an order of magnitude more productive and do smarter work.",
                     "quotation": "When you're passionate about something... you're, in order of magnitude, more productive.",
-                    "stage": "Cross-Cutting",
+                    "stage": "Core Skills",
                     "tag": "Mindset"
                 },
                 {
@@ -268,7 +268,7 @@
                     "topic": "Fun as an Abundance Mindset",
                     "content": "Reframing difficult situations (e.g., mass firing/hiring) with 'How can I have fun with this?' shifts perspective from scarcity (fear) to abundance (opportunity), unlocking creative solutions.",
                     "quotation": "When I was able to switch my mindset and say, 'Well, I'm actually going to figure out a way to have fun with this,' it actually changed my entire [approach].",
-                    "stage": "Cross-Cutting",
+                    "stage": "Core Skills",
                     "tag": "Mindset"
                 },
                 {
@@ -276,7 +276,7 @@
                     "topic": "Managing Difficult Personalities",
                     "content": "Navigate difficult colleagues by 1) Identifying their core driver (ego, career, mission) to align incentives, and 2) Finding one thing to learn from them (skills, presence) to foster genuine gratitude and reduce frustration.",
                     "quotation": "Try to study that person and be curious about them, learn from them and then thank them for that.",
-                    "stage": "Cross-Cutting",
+                    "stage": "Core Skills",
                     "tag": "Leadership"
                 }
             ],
@@ -318,7 +318,7 @@
                     "topic": "Can't, Won't, or Not Set Up",
                     "content": "When things fail, it's usually one of 3 reasons: 1) Capability (Can't do it - needs training/move), 2) Motivation (Won't do it - needs alignment), or 3) Environment (Not set up - leader's fault, needs org design).",
                     "quotation": "There are only three reasons why things do not happen... either that person can't do... or they won't do... or they were not set up to do.",
-                    "stage": "Cross-Cutting",
+                    "stage": "Core Skills",
                     "tag": "Leadership"
                 },
                 {
@@ -368,7 +368,7 @@
                     "topic": "The Impact Equation",
                     "content": "Change/Impact requires all 5: Vision + Skills + Incentives + Resources + Action Plan. If you are missing one, you get confusion, anxiety, resistance, frustration, or false starts.",
                     "quotation": "I found this framework travels with me. It's got these five components... and you need all of those to have change.",
-                    "stage": "Cross-Cutting",
+                    "stage": "Core Skills",
                     "tag": "Change Management"
                 },
                 {
@@ -476,7 +476,7 @@
                     "topic": "Generalist Executive",
                     "content": "To become an executive, refuse to specialize. Learn to speak the language of all functions (Sales, Marketing, Engineering) so you can converse with the CEO on any topic.",
                     "quotation": "Refusing to specialize... was a much faster path to the true executive role because I could speak better with CEOs about more topics.",
-                    "stage": "Cross-Cutting",
+                    "stage": "Core Skills",
                     "tag": "Career"
                 }
             ],
@@ -526,7 +526,7 @@
                     "topic": "Hoarding Credit",
                     "content": "The #1 annoyances for engineers is PMs hoarding credit. PMs are the face of the project, so they must proactively share credit with the engineers who did the hard work.",
                     "quotation": "Hoarding credit... Engineers sometimes think that don't get the credit... shows a real lack of empathy.",
-                    "stage": "Cross-Cutting",
+                    "stage": "Core Skills",
                     "tag": "Engineering"
                 },
                 {
@@ -768,7 +768,7 @@
                     "topic": "The Operating Manual",
                     "content": "Create a literal 'Working with Me' doc to fast-track alignment. Define your values, communication style, pet peeves, and decision-making filters.",
                     "quotation": "Don't make people guess how to succeed with you. Be explicit about your operating system so they can focus on the work, not the politics.",
-                    "stage": "Cross-Cutting",
+                    "stage": "Core Skills",
                     "tag": "Culture"
                 }
             ],
@@ -832,7 +832,7 @@
                     "topic": "PM Your Career",
                     "content": "Many great PMs treat their career poorly, drifting from job to job. You should write a 'spec' for your career: What does success look like? How will you get there?",
                     "quotation": "Some of the best PMs I have ever worked with are terrible PMs for their career... If I said you had to write a spec for your career...",
-                    "stage": "Cross-Cutting",
+                    "stage": "Core Skills",
                     "tag": "Career"
                 },
                 {
@@ -840,7 +840,7 @@
                     "topic": "Always Be Learning",
                     "content": "The most important career advice is to always be learning. Someone who is always learning will eventually surpass the current expert, because careers are non-linear and cumulative.",
                     "quotation": "Someone who's always learning is always going to exceed someone who's the expert today.",
-                    "stage": "Cross-Cutting",
+                    "stage": "Core Skills",
                     "tag": "Growth Mindset"
                 },
                 {
@@ -848,7 +848,7 @@
                     "topic": "Influence Without Authority",
                     "content": "Product managers must lead through influence by building trust, aligning incentives, and using data to make others the heroes of the success.",
                     "quotation": "You don't have authority, you only have influence. Your job is to make everyone around you successful so that the product succeeds.",
-                    "stage": "Cross-Cutting",
+                    "stage": "Core Skills",
                     "tag": "Leadership"
                 }
             ],
@@ -1097,7 +1097,7 @@
                     "topic": "Executive Presence",
                     "content": "To influence executives, stop presenting 'updates' and start presenting 'options with tradeoffs'. Leadership wants to see how you think, not just what you did.",
                     "quotation": "Executives don't want a status update. They want to know where the friction is and what decisions you need them to make to unblock the team.",
-                    "stage": "Cross-Cutting",
+                    "stage": "Core Skills",
                     "tag": "Leadership"
                 }
             ],
@@ -1483,7 +1483,7 @@
                     "topic": "The 'Product Sense' Metric",
                     "content": "Product sense is not an innate gift; it's the muscle of empathy for the user combined with a deep understanding of business constraints. It can be trained through observation.",
                     "quotation": "Product sense is just the ability to predict what will solve a user's problem before they tell you. It's about spotting patterns other people miss.",
-                    "stage": "Cross-Cutting",
+                    "stage": "Core Skills",
                     "tag": "Career"
                 },
                 {
@@ -1564,7 +1564,7 @@
                     "topic": "The 'Test It' Culture",
                     "content": "Avoid prolonged debates in conference rooms; test hypotheses quickly with minimum viable versions to get real-world data and iterate.",
                     "quotation": "We'd much rather test it than debate it for days and days... Resist the urge to do the big V1... get confidence at each step of the way.",
-                    "stage": "Cross-Cutting",
+                    "stage": "Core Skills",
                     "tag": "Process"
                 }
             ],
@@ -1632,7 +1632,7 @@
                     "topic": "The Messy Middle",
                     "content": "Most product organizations fail in the middle—between vision and execution. Success requires bridge-builders who can translate high-level goals into tactical constraints.",
                     "quotation": "Everybody's great at the vision, and everybody's great at the Jira ticket. The disaster happens in the messy middle where we try to connect the two.",
-                    "stage": "Cross-Cutting",
+                    "stage": "Core Skills",
                     "tag": "Org Design"
                 }
             ],
@@ -1649,7 +1649,7 @@
                     "topic": "Conscious Leadership",
                     "content": "Leadership is simply having influence in the world. Conscious leadership is taking radical responsibility for that influence by becoming aware of your internal world, biases, and inherited belief systems.",
                     "quotation": "Leadership is broadly defined as having influence in the world... Conscious leadership is taking responsibility for my influence in the world.",
-                    "stage": "Cross-Cutting",
+                    "stage": "Core Skills",
                     "tag": "Leadership"
                 },
                 {
@@ -1657,7 +1657,7 @@
                     "topic": "The Power of Sitting Back",
                     "content": "As you become more senior, your voice carries disproportionate weight. Effective leadership involves sitting back, creating space for others to speak first, and resisting the urge to 'win' the argument in the room.",
                     "quotation": "I don't need to win the argument in the meeting... I really try to spend more time being mindful of that and say, I want to hear from other people first.",
-                    "stage": "Cross-Cutting",
+                    "stage": "Core Skills",
                     "tag": "Influence"
                 },
                 {
@@ -1665,7 +1665,7 @@
                     "topic": "Objective Function for Life",
                     "content": "Treat your life choices with the same rigor as product strategy. Define your long-term 'objective function' (e.g., family relationships) and refuse to sacrifice it for short-term 'optics' or marginal improvements in work output.",
                     "quotation": "Get clear on your objective function... five years from now, I'm not going to give a shit if I made the presentation slightly better, but I'm going to care a lot about what kind of relationship I have with my daughters.",
-                    "stage": "Cross-Cutting",
+                    "stage": "Core Skills",
                     "tag": "Prioritization"
                 },
                 {
@@ -1681,7 +1681,7 @@
                     "topic": "The Wisdom of Emotions",
                     "content": "Emotions are data signals. Fear signals what needs attention; sadness signals what needs letting go; anger signals what is not of service; and joy signals what to celebrate.",
                     "quotation": "There's wisdom in emotion... Fear is something wants to be paid attention to. Sadness for me is something wants to be let go of. Anger to me is something is not of service.",
-                    "stage": "Cross-Cutting",
+                    "stage": "Core Skills",
                     "tag": "EQ"
                 },
                 {
@@ -1689,7 +1689,7 @@
                     "topic": "Agent vs. Victim Consciousness",
                     "content": "Stop living 'at the effect' of circumstances. True empowerment comes from taking 100% responsibility for how you relate to the world, even in situations where you have no control over the inputs.",
                     "quotation": "Shifting from [victim consciousness] to a state of I am willing to take responsibility for how I see the world... I'm the painter of my existence.",
-                    "stage": "Cross-Cutting",
+                    "stage": "Core Skills",
                     "tag": "Growth Mindset"
                 }
             ],
@@ -1722,7 +1722,7 @@
                     "topic": "Heartfelt Intensity",
                     "content": "Hire for internal fire and purpose over specific craft skills. A team with 'heartfelt intensity' and something to prove will perform remarkable work when given an ambitious prompt and clear path.",
                     "quotation": "We want people that show up to our company with some fire in their belly... If you have a team that has heartfelt intensity and is there for a purpose... get out of their way and they will do remarkable work.",
-                    "stage": "Cross-Cutting",
+                    "stage": "Core Skills",
                     "tag": "Hiring"
                 },
                 {
@@ -1795,7 +1795,7 @@
                     "topic": "The 5-Tool Researcher",
                     "content": "Hire and develop researchers with a 'Swiss Army Knife' of skills: (1) Formative/Generative (innovation), (2) Evaluative (usability), (3) Survey Design, (4) Applied Statistics, and (5) Technical/AI (SQL, Prompt Engineering).",
                     "quotation": "I want a researcher who's got a Swiss army knife... The best researchers have five tools... [including] basic rigorous survey design [and] applied statistics.",
-                    "stage": "Cross-Cutting",
+                    "stage": "Core Skills",
                     "tag": "Hiring"
                 },
                 {
@@ -1836,7 +1836,7 @@
                     "topic": "PM Skill Buckets (IQ vs. EQ)",
                     "content": "PM skills fall into two buckets: IQ (hard skills like execution, product sense, strategy, interviewing) and EQ (soft skills like communication, leadership, management). Career progression shifts focus from IQ early on to EQ in senior roles.",
                     "quotation": "In terms of skills, I think of it in terms of two buckets. One are IQ skills... intellectual skills... And then the other things are the EQ skills... soft skills.",
-                    "stage": "Cross-Cutting",
+                    "stage": "Core Skills",
                     "tag": "Career Growth"
                 },
                 {
@@ -1844,7 +1844,7 @@
                     "topic": "Interviewing as a Career Catalyst",
                     "content": "Interviewing is a distinct skill that determines access to top-tier companies. It requires deliberate practice—dozens of mock interviews—especially for underrepresented groups who face additional psychological pressure and bias.",
                     "quotation": "The other skill that I'll also call out, which nobody talks about for some reason, is interview skills... getting into Slack changed my trajectory and I was able to do that because I got slightly somewhat good enough at interviewing.",
-                    "stage": "Cross-Cutting",
+                    "stage": "Core Skills",
                     "tag": "Career Growth"
                 },
                 {
@@ -1868,7 +1868,7 @@
                     "topic": "The 'Small Ask' Mentorship Strategy",
                     "content": "Find mentors by making the smallest ask possible—a specific, 2-minute email question rather than a 'coffee chat.' Build trust by circling back later to show how you applied their advice and describing the impact.",
                     "quotation": "You should make the smallest ask possible... something he could answer in literally two minutes via email... the key is to circle back with them at a later point and show that you've actually made good use of the advice.",
-                    "stage": "Cross-Cutting",
+                    "stage": "Core Skills",
                     "tag": "Mentorship"
                 },
                 {
@@ -1876,7 +1876,7 @@
                     "topic": "The 'Shadow Side' of Strengths",
                     "content": "Strengths and weaknesses are often two sides of the same coin (a 'dial'). For example, curiosity leads to great questions, but when asked bluntly, they can seem junior. Identifying these 'shadow sides' through honest mentorship is critical for EQ development.",
                     "quotation": "Strengthen and weakness, it's not a binary thing. It's like the same thing, but it's a dial... that's the connection between your strength and weaknesses.",
-                    "stage": "Cross-Cutting",
+                    "stage": "Core Skills",
                     "tag": "EQ"
                 },
                 {
@@ -1884,7 +1884,7 @@
                     "topic": "Low-Friction Feedback Culture",
                     "content": "To get honest feedback on soft skills (EQ), you must make the giver feel safe and rewarded. Respond with 'enthusiastic gratitude' even when the feedback is hard to hear, ensuring they feel comfortable taking the risk to be honest again.",
                     "quotation": "Your answer has to be enthusiastically grateful... because people are like, 'Oh, he actually likes the feedback.' ...And if you get more feedback, then you'll just get better at the things.",
-                    "stage": "Cross-Cutting",
+                    "stage": "Core Skills",
                     "tag": "Leadership"
                 },
                 {
@@ -1892,7 +1892,7 @@
                     "topic": "Three Levels of Listening",
                     "content": "Senior leadership requires moving beyond 'seeking information to solve a problem' to 'creating space for others' and 'helping them feel heard.' This deeper level of listening builds influence that transactional interaction cannot.",
                     "quotation": "I'm good at seeking information to solve a problem... However, there's also different listening patterns, one of which is you just create space for someone... help that person feel heard.",
-                    "stage": "Cross-Cutting",
+                    "stage": "Core Skills",
                     "tag": "Communication"
                 }
             ],
@@ -1909,7 +1909,7 @@
                     "topic": "M&A as Optionality (Creating Plan Bs)",
                     "content": "M&A is about creating optionality. Identify 2-3 strategic buyers and 'inflict pain' by demonstrating competitive advantage, but maintain friendly open doors. Don't shut down conversations prematurely even if taking a competitive stance.",
                     "quotation": "M&A is always about creating plan Bs... figure out the area that you bring a competitive advantage. And I would inflict pain on that potential buyer. Make it impossible for them to not notice you.",
-                    "stage": "Cross-Cutting",
+                    "stage": "Core Skills",
                     "tag": "Strategy"
                 },
                 {
@@ -1917,7 +1917,7 @@
                     "topic": "The 4 Pillars of Startup Evaluation",
                     "content": "When evaluating or joining a startup, look at four dimensions: People (Founder range/scale), Market (Growth/Chaos), Product (User enthusiasm/spark), and Distribution (Unfair advantage/Ecosystem).",
                     "quotation": "There are four things that I care about when I'm looking at really early stage companies and it's people, market, product and distribution.",
-                    "stage": "Cross-Cutting",
+                    "stage": "Core Skills",
                     "tag": "Career Growth"
                 },
                 {
@@ -1957,7 +1957,7 @@
                     "topic": "The T-Shaped PM Generalist",
                     "content": "Successful PMs often act as T-shaped generalists with a broad base in finance, business, and tech. Invest in an outside network of operators at similar-stage companies to swap best practices and refine judgment.",
                     "quotation": "I spend a lot of time investing in my network and I think it's an underrated way for a PM to spend their time... build a network of operators at other companies.",
-                    "stage": "Cross-Cutting",
+                    "stage": "Core Skills",
                     "tag": "Career Growth"
                 },
                 {
@@ -2006,7 +2006,7 @@
                     "topic": "The Manager's Output",
                     "content": "The output of a manager is the output of their team. Shift from 'my work' to 'our work' and focus on coaching, alignment, and resourcing.",
                     "quotation": "As a manager, you stop being the best player on the court and start being the coach on the sidelines. Your success is reflected in their wins.",
-                    "stage": "Cross-Cutting",
+                    "stage": "Core Skills",
                     "tag": "Career"
                 }
             ],
@@ -2104,7 +2104,7 @@
                     "topic": "Review Output, Not WIP",
                     "content": "As a leader scaling a team, shift from reviewing work-in-progress (which bottlenecks the team) to reviewing outcomes and setting clear principles. trust the team to handle the 'how'.",
                     "quotation": "Review the output, not the work in progress... otherwise you become the bottleneck.",
-                    "stage": "Cross-Cutting",
+                    "stage": "Core Skills",
                     "tag": "Leadership"
                 },
                 {
@@ -2137,7 +2137,7 @@
                     "topic": "Leading Without Authority",
                     "content": "Don't wait for permission or a title. True product leadership is acting as the leader until someone explicitly tells you to stop. It's about 'taking the con' even when you don't have the rank.",
                     "quotation": "Lead until someone tells you to stop... It's a mindset shift from 'I need permission' to 'I am the leader'.",
-                    "stage": "Cross-Cutting",
+                    "stage": "Core Skills",
                     "tag": "Leadership"
                 },
                 {
@@ -2169,7 +2169,7 @@
                     "topic": "Coaching vs. Advice",
                     "content": "Advice is 'here is what I would do.' Coaching is 'helping you find your own answer.' As you grow, seek coaching to build your own judgment rather than just collecting advice.",
                     "quotation": "Advice is cheap... Coaching is about helping you unlock your own potential and find your own answers.",
-                    "stage": "Cross-Cutting",
+                    "stage": "Core Skills",
                     "tag": "Coaching"
                 },
                 {
@@ -2194,7 +2194,7 @@
                     "topic": "The 'Articulate, Ask, Accept' Loop",
                     "content": "To get what you want: 1. Articulate it clearly to yourself. 2. Ask for it explicitly from others. 3. Accept the outcome (even if it's a 'no') to move forward without resentment.",
                     "quotation": "Articulate what you want... Ask for it... and then Accept the reality of the response.",
-                    "stage": "Cross-Cutting",
+                    "stage": "Core Skills",
                     "tag": "Communication"
                 },
                 {
@@ -2202,7 +2202,7 @@
                     "topic": "The Fear of the 'No'",
                     "content": "Most PMs (and people) avoid asking because they fear rejection. But a 'No' is just data. It clarifies reality. Avoiding the ask keeps you in a fantasy world where you 'might' get it.",
                     "quotation": "The 'No' is information... it's just data. It tells you where you stand.",
-                    "stage": "Cross-Cutting",
+                    "stage": "Core Skills",
                     "tag": "Mindset"
                 },
                 {
@@ -2210,7 +2210,7 @@
                     "topic": "Integrity as Aliveness",
                     "content": "Suppressing your desires leads to burnout and deadness. Integrity isn't just morals; it's structural wholeness. Being true to what you want brings 'aliveness' and energy to your work.",
                     "quotation": "Integrity is about wholeness... when you suppress what you want, you lose aliveness.",
-                    "stage": "Cross-Cutting",
+                    "stage": "Core Skills",
                     "tag": "Well-being"
                 },
                 {
@@ -2339,7 +2339,7 @@
                     "topic": "The Alignment Clarifier",
                     "content": "To force prioritization and surface misalignments, ask stakeholders: 'If we could only do one thing this quarter to be successful, what would it be?'",
                     "quotation": "If you could only do one thing this quarter to be successful, what would it be?",
-                    "stage": "Cross-Cutting",
+                    "stage": "Core Skills",
                     "tag": "Alignment"
                 }
             ],
@@ -2470,7 +2470,7 @@
                     "quotation": "We didn't start with 'design for everyone'. We started with 'yearbooks for schools'."
                 },
                 {
-                    "category": "Cross-Cutting",
+                    "category": "Core Skills",
                     "content": "Resilience is key. 100 rejections taught me to refine the pitch, not abandon the vision.",
                     "quotation": "Every 'no' was just feedback on how to get to the 'yes'."
                 },
@@ -2585,7 +2585,7 @@
             "title": "How to work through fear, give hard feedback, and doing layoffs with grace",
             "insights": [
                 {
-                    "category": "Cross-Cutting",
+                    "category": "Core Skills",
                     "content": "Hard feedback is kinder than silence. 'Ruinous Empathy' kills teams.",
                     "quotation": "Being nice is not the same as being kind. Kindness is telling the truth."
                 },
@@ -2595,7 +2595,7 @@
                     "quotation": "Courage isn't the absence of fear; it's acting despite it."
                 },
                 {
-                    "category": "Cross-Cutting",
+                    "category": "Core Skills",
                     "content": "Layoffs are a failure of management, but must be executed with dignity for those leaving.",
                     "quotation": "How you treat people on their way out defines your culture."
                 }
@@ -2701,7 +2701,7 @@
                     "topic": "12 Product Competencies",
                     "content": "Evaluate PMs across four key areas: Strategy, Execution, User Insight, and Influence. Each area has 3 sub-skills for a total of 12 distinct competencies.",
                     "quotation": "Every great PM has a jagged profile. No one is a 10/10 on all 12. The goal is to build a team with complementary jagged edges.",
-                    "stage": "Cross-Cutting",
+                    "stage": "Core Skills",
                     "tag": "Career"
                 }
             ],
@@ -2773,7 +2773,7 @@
                     "topic": "Best of the Best",
                     "content": "This episode compiles top insights. Key themes include positioning (Dunford), retention (Widjaja), and product sense (Zhuo).",
                     "quotation": "A compilation of the best insights from the year.",
-                    "stage": "Cross-Cutting",
+                    "stage": "Core Skills",
                     "tag": "Best Practices"
                 }
             ],
@@ -2790,7 +2790,7 @@
                     "topic": "Learning from Failure",
                     "content": "You can often learn more from failure than from success. This episode compiles failure stories from top leaders.",
                     "quotation": "Normally I spend a lot of time researching how the best companies... operate, but you can learn a lot and often a lot more from failure.",
-                    "stage": "Cross-Cutting",
+                    "stage": "Core Skills",
                     "tag": "Failure"
                 },
                 {

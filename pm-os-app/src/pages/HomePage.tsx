@@ -18,7 +18,7 @@ const stageIcons: Record<string, any> = {
     "Growth": TrendingUp,
     "Scale": Network,
     "Optimization": Zap,
-    "Cross-Cutting": Layers
+    "Core Skills": Layers
 }
 
 const stageIconBg: Record<string, string> = {
@@ -30,7 +30,7 @@ const stageIconBg: Record<string, string> = {
     "Growth": "icon-bg-green",
     "Scale": "icon-bg-indigo",
     "Optimization": "icon-bg-amber",
-    "Cross-Cutting": "icon-bg-red"
+    "Core Skills": "icon-bg-red"
 }
 
 const stages = PRODUCT_STAGES.map(stage => ({

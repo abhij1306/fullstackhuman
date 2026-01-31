@@ -31,4 +31,4 @@ export interface EnrichedInsight extends InsightItem {
     publish_date?: string
 }
 
-export type Stage = "Discovery" | "Strategy" | "Design" | "Development" | "Launch" | "Growth" | "Scale" | "Optimization" | "Cross-Cutting"
+export type Stage = "Discovery" | "Strategy" | "Design" | "Development" | "Launch" | "Growth" | "Scale" | "Optimization" | "Core Skills"

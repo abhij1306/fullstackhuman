@@ -4435,10 +4435,10 @@ TASK: Conduct comprehensive feedback synthesis:
             }
         ]
     },
-    'cross-cutting': {
-        id: 'cross-cutting',
-        label: 'Cross-Cutting',
-        definition: 'Cross-cutting themes are skills, philosophies, and practices that apply across all stages of the product lifecycle, such as leadership, communication, and career development.',
+    'core-skills': {
+        id: 'core-skills',
+        label: 'Core Skills',
+        definition: 'Core skills are the meta-disciplines, philosophies, and practices that apply across all stages of the product lifecycle, such as leadership, communication, and product sense.',
         objectives: [
             'Master executive communication and presence',
             'Develop deep user empathy and "Product Sense"',
@@ -4461,34 +4461,19 @@ TASK: Conduct comprehensive feedback synthesis:
         ],
         ai_workflows: [
             {
-                title: 'Decision Logic Auditor',
-                description: 'Critiques the logic and assumptions in a decision log or memo.',
-                prompt_template: 'Review this decision log: [Content]. Identify: 1. Implicit biases. 2. Missing data points. 3. Potential second-order effects. 4. Confidence level assessment.'
+                title: 'Strategic Decision Auditor',
+                description: 'Critiques the logic and assumptions in a complex decision log or memo, forecasting hidden risks.',
+                prompt_template: 'Review this strategic decision log: [Content]. Identify: 1. Implicit biases. 2. Missing data points. 3. Potential second-order effects. 4. Forecast outcomes if assumptions fail.'
             },
             {
-                title: 'Executive Summary Generator',
-                description: 'Compresses complex project updates for executive-level audiences.',
-                prompt_template: 'Compress this detailed technical report into a 3-bullet executive summary. Focus on: 1. Binary decisions needed. 2. Critical risks. 3. Impact on North Star metric.'
+                title: 'Executive Synthesis Engine',
+                description: 'Transforms complex project data into high-leverage narratives for executive audiences.',
+                prompt_template: 'Compress this technical report into an executive-ready narrative. Focus on: 1. The one binary decision needed. 2. Critical path risks. 3. Clear impact on North Star metrics.'
             },
             {
-                title: 'Career Development Advisor',
-                description: 'Provides personalized growth recommendations based on PM career ladder.',
-                prompt_template: 'Given this PMs current role [Role], strengths [Strengths], and growth areas [Areas], suggest: 1. Specific projects to pursue. 2. Skills to develop. 3. Mentors to seek.'
-            },
-            {
-                title: '1:1 Meeting Prep Generator',
-                description: 'Creates structured 1:1 agendas based on team member needs and recent context.',
-                prompt_template: 'Generate a 30-min 1:1 agenda for [Team Member] who is working on [Current Project]. Include: 1. Blockers to address. 2. Career growth discussion. 3. Recognition items. 4. Feedback to give.'
-            },
-            {
-                title: 'Stakeholder Communication Matrix',
-                description: 'Maps out communication strategy for complex initiatives.',
-                prompt_template: 'For initiative [Initiative Details], create a communication matrix: 1. Who needs what info. 2. What format (email, doc, meeting). 3. Frequency. 4. Key messages for each stakeholder group.'
-            },
-            {
-                title: 'Team Retro Facilitator',
-                description: 'Generates retrospective prompts and synthesizes team feedback.',
-                prompt_template: 'Given this sprint retro feedback: [Feedback Data]. Generate: 1. Thematic grouping. 2. Top 3 action items. 3. Team health indicators to track next sprint.'
+                title: 'Leadership & Career Architect',
+                description: 'Orchestrates team rituals, high-performing 1:1s, and career trajectory mapping.',
+                prompt_template: 'Given the current team context [Context] and goals [Goals], generate: 1. A 30-min 1:1 agenda for growth. 2. Team ritual improvements. 3. Specific skill development paths for the next 6 months.'
             }
         ],
         success_metrics: [

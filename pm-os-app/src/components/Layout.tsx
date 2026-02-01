@@ -19,7 +19,7 @@ export default function Layout() {
     }
 
     return (
-        <div className="flex flex-col h-[100dvh] overflow-hidden bg-background text-foreground md:flex-row">
+        <div className="relative flex flex-col min-h-screen bg-background text-foreground md:flex-row md:h-screen md:overflow-hidden">
             {/* Mobile Header */}
             <header className="sticky top-0 z-50 flex items-center justify-between border-b bg-background/80 backdrop-blur-xl px-4 py-3 md:hidden">
                 <div className="flex items-center gap-3">
@@ -89,7 +89,7 @@ export default function Layout() {
                 </div>
 
                 {/* Page Content */}
-                <div className="flex-1 min-h-0 overflow-y-scroll md:overflow-y-auto scrollbar-thin bg-gradient-to-br from-gray-50/80 via-white to-purple-50/40">
+                <div className="flex-1 min-h-0 md:overflow-y-auto scrollbar-thin bg-gradient-to-br from-gray-50/80 via-white to-purple-50/40">
                     <div className="max-w-7xl mx-auto w-full p-4 sm:p-6 md:p-8">
                         <Outlet />
                     </div>

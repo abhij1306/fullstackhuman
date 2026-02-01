@@ -70,7 +70,7 @@ export default function Layout() {
             )}
 
             {/* Main Content */}
-            <main className="flex-1 bg-surface relative flex flex-col min-w-0">
+            <main className="flex-1 bg-surface relative min-w-0 md:flex md:flex-col">
                 {/* Top Bar - Desktop */}
                 <div className="hidden md:flex items-center justify-between px-8 py-4 border-b bg-white/40 backdrop-blur-xl sticky top-0 z-20">
                     <div className="flex items-center gap-4 flex-1">
@@ -89,7 +89,7 @@ export default function Layout() {
                 </div>
 
                 {/* Page Content */}
-                <div className="flex-1 min-h-0 md:overflow-y-auto scrollbar-thin bg-gradient-to-br from-gray-50/80 via-white to-purple-50/40">
+                <div className="bg-gradient-to-br from-gray-50/80 via-white to-purple-50/40 md:flex-1 md:min-h-0 md:overflow-y-auto scrollbar-thin">
                     <div className="max-w-7xl mx-auto w-full p-4 sm:p-6 md:p-8">
                         <Outlet />
                     </div>

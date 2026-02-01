@@ -19,7 +19,7 @@ export default function Layout() {
     }
 
     return (
-        <div className="relative flex flex-col min-h-screen bg-background text-foreground md:flex-row md:h-screen md:overflow-hidden">
+        <div className="relative min-h-screen bg-background text-foreground md:flex md:flex-row md:h-screen md:overflow-hidden">
             {/* Mobile Header */}
             <header className="sticky top-0 z-50 flex items-center justify-between border-b bg-background/80 backdrop-blur-xl px-4 py-3 md:hidden">
                 <div className="flex items-center gap-3">
@@ -70,7 +70,7 @@ export default function Layout() {
             )}
 
             {/* Main Content */}
-            <main className="flex-1 bg-surface relative min-w-0 md:flex md:flex-col">
+            <main className="bg-surface relative md:flex-1 md:flex md:flex-col md:min-w-0">
                 {/* Top Bar - Desktop */}
                 <div className="hidden md:flex items-center justify-between px-8 py-4 border-b bg-white/40 backdrop-blur-xl sticky top-0 z-20">
                     <div className="flex items-center gap-4 flex-1">

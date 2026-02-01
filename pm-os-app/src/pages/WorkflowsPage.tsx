@@ -116,23 +116,19 @@ export default function WorkflowsPage() {
     return grouped
   }, [filteredWorkflows])
 
-  const totalCount = workflows.length
-  const filteredCount = filteredWorkflows.length
 
   return (
     <div className="h-full flex flex-col animate-fade-in">
       {/* Header */}
       <div className="border-b bg-background/95 backdrop-blur-sm sticky top-0 z-10">
         <div className="px-3 py-3">
-          <div className="flex items-center gap-2 mb-3">
-            <div className="flex items-center justify-center w-7 h-7 rounded-md bg-primary/10">
-              <Command className="h-3.5 w-3.5 text-primary" />
+          <div className="flex items-center gap-3 mb-3">
+            <div className="flex items-center justify-center w-9 h-9 rounded-xl bg-primary/10 shadow-sm transition-all group-hover:shadow-md duration-200">
+              <Command className="h-5 w-5 text-primary" />
             </div>
             <div>
-              <h1 className="text-base font-semibold tracking-tight">Gemini Protocols</h1>
-              <p className="text-[11px] text-muted-foreground">
-                {filteredCount} of {totalCount} workflows
-              </p>
+              <h1 className="text-xl font-bold tracking-tight">Gemini Protocols</h1>
+              <p className="text-[10px] text-muted-foreground font-black uppercase tracking-wider">Automated Workflows</p>
             </div>
           </div>
 

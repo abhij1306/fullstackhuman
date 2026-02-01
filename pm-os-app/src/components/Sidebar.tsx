@@ -14,7 +14,7 @@ const stages = [
     { name: "Optimization", icon: Zap, path: "/stage/optimization", color: "text-amber-600", bg: "bg-amber-50" },
 ]
 
-export function Sidebar({ className }: { className?: string }) {
+export function Sidebar({ className, onItemClick }: { className?: string, onItemClick?: () => void }) {
     const location = useLocation()
     const [searchParams] = useSearchParams()
     const currentTab = searchParams.get("tab")
@@ -24,7 +24,7 @@ export function Sidebar({ className }: { className?: string }) {
             <div className="space-y-1 py-4">
                 {/* Logo */}
                 <div className="px-4 mb-5">
-                    <Link to="/" className="flex items-center gap-3 group">
+                    <Link to="/" className="flex items-center gap-3 group" onClick={onItemClick}>
                         <div className="relative h-10 w-10 shrink-0 overflow-hidden rounded-xl border border-gray-100 shadow-sm transition-all group-hover:shadow-md group-hover:scale-105 duration-200">
                             <img
                                 src="/logo.png"
@@ -43,7 +43,7 @@ export function Sidebar({ className }: { className?: string }) {
 
                 {/* Main Navigation */}
                 <div className="px-3 space-y-1">
-                    <Link to="/">
+                    <Link to="/" onClick={onItemClick}>
                         <Button
                             variant={location.pathname === "/" ? "secondary" : "ghost"}
                             className={cn(
@@ -59,7 +59,7 @@ export function Sidebar({ className }: { className?: string }) {
                             Home
                         </Button>
                     </Link>
-                    <Link to="/inventory">
+                    <Link to="/inventory" onClick={onItemClick}>
                         <Button
                             variant={location.pathname === "/inventory" ? "secondary" : "ghost"}
                             className={cn(
@@ -75,7 +75,7 @@ export function Sidebar({ className }: { className?: string }) {
                             Inventory
                         </Button>
                     </Link>
-                    <Link to="/workflows">
+                    <Link to="/workflows" onClick={onItemClick}>
                         <Button
                             variant={location.pathname.startsWith("/workflows") ? "secondary" : "ghost"}
                             className={cn(
@@ -91,7 +91,7 @@ export function Sidebar({ className }: { className?: string }) {
                             Workflows
                         </Button>
                     </Link>
-                    <Link to="/stage/core-skills">
+                    <Link to="/stage/core-skills" onClick={onItemClick}>
                         <Button
                             variant={location.pathname === "/stage/core-skills" ? "secondary" : "ghost"}
                             className={cn(
@@ -134,6 +134,7 @@ export function Sidebar({ className }: { className?: string }) {
                             <Link
                                 key={stage.path}
                                 to={currentTab ? `${stage.path}?tab=${currentTab}` : stage.path}
+                                onClick={onItemClick}
                             >
                                 <Button
                                     variant={isActive ? "secondary" : "ghost"}

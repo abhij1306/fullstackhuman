@@ -56,7 +56,7 @@ export default function Layout() {
                         </Button>
                     </div>
                     <div className="flex-1 overflow-y-auto">
-                        <Sidebar className="border-r-0" />
+                        <Sidebar className="border-r-0" onItemClick={() => setSidebarOpen(false)} />
                     </div>
                 </div>
             </aside>
@@ -89,8 +89,8 @@ export default function Layout() {
                 </div>
 
                 {/* Page Content */}
-                <div className="flex-1 p-4 sm:p-6 md:p-8 overflow-y-auto scrollbar-thin bg-gradient-to-br from-gray-50/80 via-white to-purple-50/40">
-                    <div className="max-w-7xl mx-auto w-full">
+                <div className="flex-1 min-h-0 overflow-y-auto scrollbar-thin bg-gradient-to-br from-gray-50/80 via-white to-purple-50/40">
+                    <div className="max-w-7xl mx-auto w-full p-4 sm:p-6 md:p-8">
                         <Outlet />
                     </div>
                 </div>

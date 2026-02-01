@@ -45,7 +45,7 @@ export default function Layout() {
             <aside
                 className={cn(
                     "fixed inset-y-0 left-0 z-50 w-72 transform transition-all duration-500 ease-in-out md:sticky md:top-0 md:h-screen md:translate-x-0 border-r bg-background shadow-2xl md:shadow-none",
-                    sidebarOpen ? "translate-x-0" : "-translate-x-full"
+                    sidebarOpen ? "translate-x-0" : "-translate-x-full pointer-events-none md:pointer-events-auto"
                 )}
             >
                 <div className="flex h-full flex-col">
@@ -89,7 +89,7 @@ export default function Layout() {
                 </div>
 
                 {/* Page Content */}
-                <div className="flex-1 min-h-0 overflow-y-auto scrollbar-thin bg-gradient-to-br from-gray-50/80 via-white to-purple-50/40">
+                <div className="flex-1 min-h-0 overflow-y-scroll md:overflow-y-auto scrollbar-thin bg-gradient-to-br from-gray-50/80 via-white to-purple-50/40">
                     <div className="max-w-7xl mx-auto w-full p-4 sm:p-6 md:p-8">
                         <Outlet />
                     </div>
